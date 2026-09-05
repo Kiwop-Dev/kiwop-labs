@@ -1,0 +1,14 @@
+{
+  "name": "kiwop-labs-estudio-ecommerce",
+  "private": true,
+  "type": "module",
+  "description": "Medidores del estudio «IA en el ecommerce español» de Kiwop Labs (doble pasada HTTP + Chromium headless).",
+  "scripts": {
+    "test": "node --test medir.test.mjs",
+    "medir": "node medir.mjs --in=tiendas-300.json --out=resultados",
+    "medir:headless": "node medir-headless.mjs --in=tiendas-300.json --out=resultados"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}

@@ -1,0 +1,22 @@
+---
+import ReproLayout from '../_ReproLayout.astro';
+import { findVariant } from '../_variants';
+
+const { variant: slug, n: rawN } = Astro.params;
+const variant = findVariant(slug);
+const n = Number(rawN);
+
+if (!variant || (n !== 1 && n !== 2)) {
+  return Astro.redirect('/webmcp-repro', 302);
+}
+---
+
+<ReproLayout
+  variant={variant.slug}
+  n={n}
+  router={variant.router}
+  imperative={variant.imperative}
+  declarative={variant.declarative}
+  expected={variant.expected}
+  label={variant.label}
+/>

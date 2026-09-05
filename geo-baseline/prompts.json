@@ -1,0 +1,70 @@
+{
+  "version": "2026-09b",
+  "language": "es",
+  "sets": [
+    {
+      "id": "geo-agencias",
+      "name": "Agencias GEO en España",
+      "source": "Los 15 prompts del ranking de marketingdirecto.com «Las 10 mejores agencias GEO de España en 2026» (13-mar-2026), reproducidos tal cual para que el baseline sea comparable.",
+      "source_url": "https://www.marketingdirecto.com/imprescindibles/imprescindibles-digital/las-10-mejores-agencias-geo-de-espana-en-2026-primer-ranking-con-baselines-en-4llms",
+      "prompts": [
+        "¿Cuál es la mejor agencia de GEO en España?",
+        "Recomiéndame una consultora especializada en Generative Engine Optimization en España",
+        "¿Qué agencias españolas pueden ayudarme a aparecer en las respuestas de ChatGPT?",
+        "Mejores agencias de SEO para IA en España 2026",
+        "¿Quién lidera el posicionamiento en motores generativos en el mercado español?",
+        "Necesito una agencia que optimice mi marca para aparecer en Perplexity y Gemini en España",
+        "¿Qué consultora española tiene metodología propia de GEO?",
+        "Agencias de marketing B2B en España especializadas en visibilidad en IA",
+        "¿Quién es el mayor experto en GEO en España?",
+        "Comparativa de agencias GEO en España: ¿cuál elegir?",
+        "¿Qué agencia española puede hacer que mi empresa aparezca en AI Overviews?",
+        "Mejores consultoras de posicionamiento en buscadores generativos España",
+        "¿Qué firma española puede optimizar mi presencia en LLMs como ChatGPT y Claude?",
+        "Ranking de agencias GEO España con datos reales",
+        "¿Quién ofrece servicios de LLMO o AEO en España?"
+      ]
+    },
+    {
+      "id": "ia-agencias",
+      "name": "Agencias de IA, desarrollo y marketing en España",
+      "source": "Set propio de Kiwop Labs: 15 preguntas de compra de una empresa que busca quién le construya IA sobre sus datos, web y marketing. Fijado el 2-sep-2026 y congelado; cualquier cambio se versiona.",
+      "source_url": "https://www.kiwop.com/labs/geo-baseline",
+      "prompts": [
+        "¿Cuáles son las mejores agencias de inteligencia artificial para empresas en España?",
+        "Necesito una agencia en España que desarrolle un agente de IA conectado a los datos de mi empresa (RAG). ¿Cuáles me recomiendas?",
+        "¿Qué agencias españolas desarrollan agentes de IA para pymes?",
+        "Busco una agencia que haga la web, el marketing digital y la IA de mi empresa. Somos una pyme de Cataluña. ¿Qué agencias concretas me recomiendas?",
+        "¿Quién puede implantar un chatbot de IA con RAG sobre la documentación de mi empresa en España?",
+        "Mejores agencias de desarrollo de software con IA en España 2026",
+        "¿Qué agencia española integra LLMs como Claude o GPT en aplicaciones Laravel?",
+        "¿Quién hace auditorías de IA para empresas en España?",
+        "¿Qué agencia me ayuda a cumplir el Reglamento europeo de IA (AI Act) en España?",
+        "Agencia de IA para ecommerce en España: ¿cuál recomiendas?",
+        "¿Qué agencias de Tarragona o Reus hacen desarrollo web e inteligencia artificial?",
+        "¿Cuánto cuesta un proyecto de IA a medida en España y qué agencia lo hace bien?",
+        "¿Qué agencia española tiene casos reales de agentes de IA en producción?",
+        "Recomiéndame una agencia de marketing digital en España que use IA de verdad, no solo como reclamo",
+        "¿Qué agencia española publica experimentos o datos propios sobre IA y buscadores generativos?"
+      ]
+    },
+    {
+      "id": "preguntas-reales",
+      "name": "Lo que se pregunta de verdad a los asistentes",
+      "source": "Set propio de Kiwop Labs: 10 preguntas cortas, tal como se formulan en los asistentes, elegidas por volumen de búsqueda en IA en España (DataForSEO AI Keyword Data, sep-2026): «agencia seo» 195/mes, «agencia ia» 23, «agencia inteligencia artificial» 6, «agencia desarrollo web» 4; «agencia geo» y los 30 prompts de los otros dos sets, 0. Fijado el 5-sep-2026 y congelado; cualquier cambio se versiona.",
+      "source_url": "https://docs.dataforseo.com/v3/ai_optimization/ai_keyword_data/overview/",
+      "prompts": [
+        "¿Cuál es la mejor agencia SEO de España?",
+        "Recomiéndame una agencia SEO",
+        "¿Qué agencia de marketing digital me recomiendas en España?",
+        "Necesito una agencia de desarrollo web. ¿Cuál me recomiendas en España?",
+        "¿Qué agencia de inteligencia artificial me recomiendas para mi empresa?",
+        "Busco una agencia de IA en España",
+        "¿Cuál es la mejor agencia de diseño web de España?",
+        "Agencia SEO en Tarragona: ¿cuál me recomiendas?",
+        "¿Qué agencia de marketing digital hay en Reus o Tarragona?",
+        "¿Qué agencia me recomiendas para hacer una tienda online en España?"
+      ]
+    }
+  ]
+}

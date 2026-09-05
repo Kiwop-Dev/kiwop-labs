@@ -1,0 +1,186 @@
+---
+/**
+ * Layout del repro publico de WebMCP (crbug.com/534655509). NO es el layout del
+ * sitio: aqui todo esta desnudo a proposito, para que un triager de Chromium vea
+ * en el view-source exactamente que hay en la pagina y nada mas.
+ *
+ * Las paginas viven en /webmcp-repro/<variant>/<n> y su unico contenido son dos
+ * enlaces internos entre si. Cada variante enciende o apaga las tres piezas que
+ * la biseccion senala como disparador: router same-document, tools imperativas y
+ * tool declarativa.
+ *
+ * Requisitos para que la API se active: meta origin-trial (PUBLIC_WEBMCP_OT_TOKEN
+ * en el .env del servidor) + header Origin-Agent-Cluster: ?1 (lo pone nginx).
+ * Sin token estas paginas siguen sirviendose, con un aviso de que no miden nada.
+ */
+import { ClientRouter } from 'astro:transitions';
+
+interface Props {
+  variant: string;
+  n: number;
+  router: boolean;
+  imperative: boolean;
+  declarative: boolean;
+  expected: 'crash' | 'ok';
+  label: string;
+}
+
+const { variant, n, router, imperative, declarative, expected, label } = Astro.props;
+const token = import.meta.env.PUBLIC_WEBMCP_OT_TOKEN;
+const other = n === 1 ? 2 : 1;
+
+// El script inline sale IDENTICO en las dos paginas de una variante: asi se comporta
+// el sitio real (Astro no re-ejecuta un script inline que no ha cambiado despues del
+// swap, y las tools registradas siguen vivas), y ese detalle forma parte del repro.
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{`WebMCP repro: ${variant} (page ${n})`}</title>
+    {token && <meta http-equiv="origin-trial" content={token} />}
+    {router && <ClientRouter fallback="swap" />}
+    <style>
+      body { font: 16px/1.5 system-ui, sans-serif; margin: 0; padding: 2rem; max-width: 46rem; }
+      h1 { font-size: 1.25rem; margin: 0 0 .25rem; }
+      .n { font-size: 3rem; font-weight: 700; margin: 1rem 0; }
+      .go { display: inline-block; padding: .75rem 1.25rem; background: #111; color: #fff; text-decoration: none; border-radius: .375rem; font-weight: 600; }
+      table { border-collapse: collapse; margin: 1rem 0; font-size: .875rem; }
+      td, th { border: 1px solid #ccc; padding: .25rem .625rem; text-align: left; }
+      code { background: #f1f1f1; padding: .1rem .3rem; }
+      .warn { background: #fff4e5; border: 1px solid #e0a800; padding: .75rem; margin: 1rem 0; }
+      form { margin: 1rem 0; opacity: .6; }
+      footer { margin-top: 2rem; font-size: .8125rem; color: #555; }
+    </style>
+  </head>
+  <body>
+    <h1>WebMCP repro: {label}</h1>
+    <p>
+      Minimal reproduction for <a href="https://issues.chromium.org/issues/534655509">crbug.com/534655509</a>.
+      Expected on current stable Chrome: <strong>{expected === 'crash' ? 'renderer killed on the click below' : 'no crash'}</strong>.
+    </p>
+
+    {!token && (
+      <p class="warn">
+        No origin trial token is being served right now, so <code>document.modelContext</code> is
+        undefined and this page measures nothing. Contact the site owner.
+      </p>
+    )}
+
+    <table>
+      <tr><th>Same-document router (Astro ClientRouter, View Transitions)</th><td>{router ? 'on' : 'off'}</td></tr>
+      <tr><th>Imperative tools (<code>modelContext.registerTool()</code>)</th><td>{imperative ? 'on (2 tools)' : 'off'}</td></tr>
+      <tr><th>Declarative tool (<code>toolname</code> / <code>tooldescription</code>)</th><td>{declarative ? 'on (1 form)' : 'off'}</td></tr>
+    </table>
+
+    <p class="n">Page {n}</p>
+    <p><a class="go" href={`/webmcp-repro/${variant}/${other}`}>Click here to go to page {other}</a></p>
+    <p>Click that link. Direct URL loads never crash: the navigation has to come from a click.</p>
+
+    {/* onsubmit cancelado: lo que importa aqui son los atributos, no enviar el
+        formulario. Sin esto, un Enter en el input saca al triager del repro. */}
+    {declarative && (
+      <form id="repro-form" onsubmit="return false" toolname="repro_echo" tooldescription="Echo back the message it receives. Declarative registration path, only here to reproduce the crash.">
+        <input
+          type="text"
+          name="message"
+          placeholder="declarative tool input"
+          toolparamdescription="Any text to echo back."
+        />
+        <button type="submit">Send</button>
+      </form>
+    )}
+
+    <p id="status">API status: checking…</p>
+
+    <footer>
+      <p><a href="/webmcp-repro">All variants</a> · Kiwop, WebMCP origin trial participant since 2026-07-13.</p>
+    </footer>
+
+    {imperative ? (
+      <script is:inline>
+        (function reproWebMCP() {
+          var mc =
+            (typeof document !== 'undefined' && document.modelContext) ||
+            (typeof navigator !== 'undefined' && navigator.modelContext) ||
+            null;
+
+          function paint(text) {
+            var el = document.getElementById('status');
+            if (el) el.textContent = 'API status: ' + text;
+          }
+
+          if (!mc || typeof mc.registerTool !== 'function') {
+            paint('modelContext NOT available (no token, or unsupported browser)');
+            return;
+          }
+
+          if (!window.__reproMCPController) {
+            var controller = new AbortController();
+            window.__reproMCPController = controller;
+            var TOOLS = [
+              {
+                name: 'repro_ping',
+                description: 'Return a constant string. Exists only to keep an imperative tool registered on this document.',
+                inputSchema: { type: 'object', properties: {}, additionalProperties: false },
+                annotations: { readOnlyHint: true },
+                execute: function () { return 'pong'; },
+              },
+              {
+                name: 'repro_echo_imperative',
+                description: 'Echo back the message it receives. Imperative registration path.',
+                inputSchema: {
+                  type: 'object',
+                  properties: { message: { type: 'string', description: 'Any text to echo back.' } },
+                  required: ['message'],
+                  additionalProperties: false,
+                },
+                annotations: { readOnlyHint: true },
+                execute: function (input) { return String((input && input.message) || ''); },
+              },
+            ];
+            for (var i = 0; i < TOOLS.length; i++) {
+              try {
+                // registerTool() rejects asynchronously: a synchronous try/catch is not enough.
+                var p = mc.registerTool(TOOLS[i], { signal: controller.signal });
+                if (p && typeof p.catch === 'function') p.catch(function () {});
+              } catch (err) {
+                /* experimental API: never break the page */
+              }
+            }
+          }
+
+          paint('modelContext available, 2 imperative tools registered');
+          // Deliberately no release/re-register around the swap: the tools stay
+          // registered across the same-document navigation, which is what the real
+          // site ships. Doing it on astro:before-swap / astro:after-swap was tested
+          // too and crashes just the same.
+          document.addEventListener('astro:after-swap', function () {
+            paint('modelContext available, 2 imperative tools registered');
+          });
+        })();
+      </script>
+    ) : (
+      <script is:inline>
+        (function reproWebMCPStatus() {
+          var mc =
+            (typeof document !== 'undefined' && document.modelContext) ||
+            (typeof navigator !== 'undefined' && navigator.modelContext) ||
+            null;
+          function paint() {
+            var el = document.getElementById('status');
+            if (el) {
+              el.textContent = mc
+                ? 'API status: modelContext available, no imperative tools registered'
+                : 'API status: modelContext NOT available (no token, or unsupported browser)';
+            }
+          }
+          paint();
+          document.addEventListener('astro:after-swap', paint);
+        })();
+      </script>
+    )}
+  </body>
+</html>

@@ -1,0 +1,108 @@
+---
+/**
+ * Indice del repro de WebMCP. Esta pagina NO monta el router ni registra tools:
+ * se puede navegar sin riesgo. Cada variante vive en su propia URL.
+ */
+import { VARIANTS } from './_variants';
+
+const token = import.meta.env.PUBLIC_WEBMCP_OT_TOKEN;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>WebMCP renderer crash: minimal repro (crbug 534655509)</title>
+    <style>
+      body { font: 16px/1.6 system-ui, sans-serif; margin: 0; padding: 2rem 1.5rem 4rem; max-width: 52rem; }
+      h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+      h2 { font-size: 1.125rem; margin-top: 2rem; }
+      table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .9375rem; }
+      td, th { border: 1px solid #ccc; padding: .375rem .625rem; text-align: left; vertical-align: top; }
+      th { background: #f6f6f6; }
+      code { background: #f1f1f1; padding: .1rem .3rem; font-size: .875em; }
+      pre { background: #f6f6f6; padding: .75rem; overflow-x: auto; font-size: .8125rem; }
+      .crash { color: #b00020; font-weight: 700; }
+      .warn { background: #fff4e5; border: 1px solid #e0a800; padding: .75rem; margin: 1rem 0; }
+      footer { margin-top: 3rem; font-size: .875rem; color: #555; }
+    </style>
+  </head>
+  <body>
+    <h1>WebMCP: renderer killed on same-document navigation</h1>
+    <p>
+      Minimal reproduction for <a href="https://issues.chromium.org/issues/534655509">crbug.com/534655509</a>,
+      served from an origin enrolled in the WebMCP origin trial. Reproduced on Chrome
+      150.0.7871.187 (2026-07-28), 151.0.7922.138 (2026-08-19) and 151.0.7922.170 (2026-08-24), macOS.
+    </p>
+
+    {!token && (
+      <p class="warn">
+        The origin trial token is not being served right now, so <code>document.modelContext</code>
+        is undefined and none of these pages measure anything.
+      </p>
+    )}
+
+    <h2>What to do</h2>
+    <p>
+      Open a variant below, then <strong>click the link on the page</strong> to go to its second
+      page. Loading either page directly by URL never crashes. The navigation has to come from a
+      click, which is what makes the router take over instead of the browser.
+    </p>
+    <p>
+      On macOS, count new minidumps to be sure of what you saw:
+    </p>
+    <pre>ls -lt ~/Library/Application\ Support/Google/Chrome/Crashpad/completed/*.dmp | head
+strings &lt;dump&gt;.dmp | grep -Eo "killed_process_origin_lock.*|bad_message_reason"</pre>
+
+    <h2>Variants</h2>
+    <table>
+      <tr>
+        <th>Configuration</th>
+        <th>Router</th>
+        <th>Imperative</th>
+        <th>Declarative</th>
+        <th>Expected</th>
+      </tr>
+      {VARIANTS.map((v) => (
+        <tr>
+          <td><a href={`/webmcp-repro/${v.slug}/1`}>{v.label}</a></td>
+          <td>{v.router ? 'on' : 'off'}</td>
+          <td>{v.imperative ? 'on' : 'off'}</td>
+          <td>{v.declarative ? 'on' : 'off'}</td>
+          <td class={v.expected === 'crash' ? 'crash' : ''}>{v.expected === 'crash' ? 'CRASH' : 'ok'}</td>
+        </tr>
+      ))}
+    </table>
+
+    <h2>What the variants mean</h2>
+    <ul>
+      <li><strong>Router</strong>: Astro's <code>&lt;ClientRouter&gt;</code>, which navigates same-document by fetching the next page and swapping the DOM through the View Transitions API. Site-wide prefetch on hover is on, as on the real site.</li>
+      <li><strong>Imperative</strong>: two tools registered with <code>document.modelContext.registerTool()</code>, released through the <code>AbortSignal</code> passed at registration.</li>
+      <li><strong>Declarative</strong>: one <code>&lt;form&gt;</code> carrying <code>toolname</code> and <code>tooldescription</code>, with <code>toolparamdescription</code> on its input.</li>
+    </ul>
+    <p>
+      The trigger needs all three at once. Removing any one of them stops the crash, and so does
+      removing the token. Releasing the tools on <code>astro:before-swap</code> and re-registering
+      them on <code>astro:after-swap</code> does not help either, which is why these pages keep
+      their tools registered across the swap.
+    </p>
+
+    <h2>History</h2>
+    <p>
+      An earlier set of repro pages (<code>/webmcp-repro/a.html</code>, <code>a2.html</code>,
+      <code>/webmcp-repro-nooac/a2.html</code>) was linked from the bug report in July. Those were
+      plain multi-page HTML with no router, which is why they never reproduced anything: at the
+      time we had wrongly described this site as a classic MPA. Those URLs now redirect here, and the
+      <code>mpa-both</code> and <code>mpa-none</code> variants above cover what they tested.
+    </p>
+
+    <footer>
+      <p>
+        Published by <a href="https://www.kiwop.com">Kiwop</a>, WebMCP origin trial participant since
+        2026-07-13. These pages are noindex and exist only for Chromium triage. Minidumps from both
+        reproductions are retained and can be shared privately.
+      </p>
+    </footer>
+  </body>
+</html>

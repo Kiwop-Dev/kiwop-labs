@@ -1,0 +1,2804 @@
+{
+ "nota": "Muestra del ESTUDIO (n=300) generada mecánicamente desde marco/seleccion-300.json + url_final de marco/criba-final.json. Ventana de medición: septiembre 2026.",
+ "fecha_muestra": "2026-07-16T08:52:58.353Z",
+ "generado": "2026-09-01",
+ "tiendas": [
+  {
+   "dominio": "aliexpress.com",
+   "url": "https://es.aliexpress.com/?gatewayAdapt=glo2esp",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "leroymerlin.es",
+   "url": "https://www.leroymerlin.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "elcorteingles.es",
+   "url": "https://www.elcorteingles.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "mediamarkt.es",
+   "url": "https://www.mediamarkt.es/es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "decathlon.es",
+   "url": "https://www.decathlon.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "carrefour.es",
+   "url": "https://www.carrefour.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "ikea.com",
+   "url": "https://www.ikea.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "pccomponentes.com",
+   "url": "https://www.pccomponentes.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "shein.com",
+   "url": "https://es.shein.com/?cdn_rsite=cf&ref=www&rep=dir&ret=es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "samsung.com",
+   "url": "https://www.samsung.com/es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "lidl.es",
+   "url": "https://www.lidl.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "primor.eu",
+   "url": "https://www.primor.eu/es_es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "zalando.es",
+   "url": "https://www.zalando.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "vinted.es",
+   "url": "https://www.vinted.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "druni.es",
+   "url": "https://www.druni.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "ebay.es",
+   "url": "https://www.ebay.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "game.es",
+   "url": "https://www.game.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "mi.com",
+   "url": "https://www.mi.com/es/",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "cardmarket.com",
+   "url": "https://cardmarket.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "nintendo.com",
+   "url": "https://www.nintendo.com/es-es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "casadellibro.com",
+   "url": "https://www.casadellibro.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "playstation.com",
+   "url": "https://www.playstation.com/es-es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "mercadona.es",
+   "url": "https://www.mercadona.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "sprintersports.com",
+   "url": "https://www.sprintersports.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "bricodepot.es",
+   "url": "https://bricodepot.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "cecotec.es",
+   "url": "https://cecotec.es/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "alcampo.es",
+   "url": "https://www.compraonline.alcampo.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "backmarket.es",
+   "url": "https://www.backmarket.es/es-es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "mangooutlet.com",
+   "url": "https://www.mangooutlet.com/es/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "tradeinn.com",
+   "url": "https://www.tradeinn.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "myspringfield.com",
+   "url": "https://myspringfield.com/es/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "hsnstore.com",
+   "url": "https://hsnstore.com/",
+   "sector": "alimentacion",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "deporvillage.com",
+   "url": "https://deporvillage.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "womensecret.com",
+   "url": "https://womensecret.com/es/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "nike.com",
+   "url": "https://www.nike.com/es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "privalia.com",
+   "url": "https://privalia.com",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "bauhaus.es",
+   "url": "https://www.bauhaus.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "jysk.es",
+   "url": "https://jysk.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "eroski.es",
+   "url": "https://www.eroski.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "sklum.com",
+   "url": "https://www.sklum.com/es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "dia.es",
+   "url": "https://www.dia.es/error",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "conforama.es",
+   "url": "https://www.conforama.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "jdsports.es",
+   "url": "https://www.jdsports.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "cashconverters.es",
+   "url": "https://www.cashconverters.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "cortefiel.com",
+   "url": "https://cortefiel.com/es/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "zalando-prive.es",
+   "url": "https://www.zalando-prive.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "parfois.com",
+   "url": "https://www.parfois.com/es/es/country/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "amazon.co.uk",
+   "url": "https://www.amazon.co.uk/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": true,
+   "plataformas": []
+  },
+  {
+   "dominio": "webuy.com",
+   "url": "https://es.webuy.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "panini.es",
+   "url": "https://www.panini.es/shp_esp_es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "asos.com",
+   "url": "https://www.asos.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "outlet-pc.es",
+   "url": "https://outlet-pc.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "manomano.es",
+   "url": "https://www.manomano.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "worten.es",
+   "url": "https://www.worten.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "primeriti.es",
+   "url": "https://www.primeriti.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "vidaxl.es",
+   "url": "https://www.vidaxl.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "intex.es",
+   "url": "https://www.intex.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "huawei.com",
+   "url": "https://www.huawei.com/en/",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "gafas.es",
+   "url": "https://www.gafas.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "lego.com",
+   "url": "https://www.lego.com/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "maisonsdumonde.com",
+   "url": "https://www.maisonsdumonde.com/ES/es",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "hp.com",
+   "url": "https://www.hp.com/es-es/home.html",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "promofarma.com",
+   "url": "https://www.promofarma.com/",
+   "sector": "belleza",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "uniqlo.com",
+   "url": "https://www.uniqlo.com/es/es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "garmin.com",
+   "url": "https://www.garmin.com/es-ES/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "tiendanimal.es",
+   "url": "https://www.tiendanimal.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "zooplus.es",
+   "url": "https://www.zooplus.es/",
+   "sector": "generalista",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "motocard.com",
+   "url": "https://motocard.com/",
+   "sector": "deporte",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "merkal.com",
+   "url": "https://merkal.com/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "pandora.net",
+   "url": "https://es.pandora.net/es",
+   "sector": "joyeria-lujo",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "puma.com",
+   "url": "https://eu.puma.com/es/es",
+   "sector": "deporte",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "forumsport.com",
+   "url": "https://www.forumsport.com/es-es/",
+   "sector": "deporte",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "lg.com",
+   "url": "https://www.lg.com/es/",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "veepee.es",
+   "url": "https://www.veepee.es/gr/home/default",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "desigual.com",
+   "url": "https://www.desigual.com/es_ES/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "yesstyle.com",
+   "url": "https://www.yesstyle.com/es/home.html",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "atrapamuebles.com",
+   "url": "https://www.atrapamuebles.com/",
+   "sector": "hogar",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "fiftyoutlet.com",
+   "url": "https://fiftyoutlet.com/es/es",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "notino.es",
+   "url": "https://www.notino.es/",
+   "sector": "belleza",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "decathlon.com",
+   "url": "https://www.decathlon.com/",
+   "sector": "deporte",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "myprotein.es",
+   "url": "https://www.myprotein.es/",
+   "sector": "alimentacion",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "futbolemotion.com",
+   "url": "https://www.futbolemotion.com/",
+   "sector": "deporte",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "coolmod.com",
+   "url": "https://coolmod.com",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "micolet.com",
+   "url": "https://www.micolet.com/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "etam.es",
+   "url": "https://www.etam.es/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "naturitas.es",
+   "url": "https://www.naturitas.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "tikamoon.es",
+   "url": "https://tikamoon.es/",
+   "sector": "hogar",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "laredoute.es",
+   "url": "https://www.laredoute.es/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "tezenis.com",
+   "url": "https://www.tezenis.com/es/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "mielectro.es",
+   "url": "https://mielectro.es/",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "aosom.es",
+   "url": "https://www.aosom.es/",
+   "sector": "hogar",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "dji.com",
+   "url": "https://www.dji.com/es",
+   "sector": "electronica",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "tous.com",
+   "url": "https://www.tous.com/es-es/",
+   "sector": "joyeria-lujo",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "generaloptica.es",
+   "url": "https://www.generaloptica.es/es/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "gymshark.com",
+   "url": "https://eu.gymshark.com/es-ES",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "beliani.es",
+   "url": "https://www.beliani.es/",
+   "sector": "hogar",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "pedrodelhierro.com",
+   "url": "https://pedrodelhierro.com/es/es",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "singularu.com",
+   "url": "https://singularu.com/",
+   "sector": "moda",
+   "tramo": "grande",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "alvaromoreno.com",
+   "url": "https://www.alvaromoreno.com/es_es/home",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "farfetch.com",
+   "url": "https://www.farfetch.com/es/",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "freshlycosmetics.com",
+   "url": "https://www.freshlycosmetics.com/es/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "calzedonia.com",
+   "url": "https://www.calzedonia.com/es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "dosfarma.com",
+   "url": "https://dosfarma.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "ahorramas.com",
+   "url": "https://www.ahorramas.com/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "hawkersco.com",
+   "url": "https://www.hawkersco.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "silbonshop.com",
+   "url": "https://www.silbonshop.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "scalapay.com",
+   "url": "https://www.scalapay.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop",
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "embargosalobestia.com",
+   "url": "https://www.embargosalobestia.com/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "vtex"
+   ]
+  },
+  {
+   "dominio": "hiperdino.es",
+   "url": "https://www.hiperdino.es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "scalperscompany.com",
+   "url": "https://scalperscompany.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "ralphlauren.es",
+   "url": "https://www.ralphlauren.es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "padelnuestro.com",
+   "url": "https://www.padelnuestro.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "marvimundo.com",
+   "url": "https://www.marvimundo.com/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "encuentromoda.com",
+   "url": "https://www.encuentromoda.com/pen/es/home",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "rituals.com",
+   "url": "https://www.rituals.com/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "prozis.com",
+   "url": "https://prozis.com/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "joma-sport.com",
+   "url": "https://www.joma-sport.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "arenal.com",
+   "url": "https://www.arenal.com/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "underarmour.es",
+   "url": "https://www.underarmour.es/es-es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "douglas.es",
+   "url": "https://www.douglas.es/es",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "sony.es",
+   "url": "https://www.sony.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "birkenstock.com",
+   "url": "https://www.birkenstock.com/es",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "vips.es",
+   "url": "https://www.vips.es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "nespresso.com",
+   "url": "https://www.nespresso.com/es/es",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "futbolmania.com",
+   "url": "https://www.futbolmania.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "yves-rocher.es",
+   "url": "https://www.yves-rocher.es/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "farmavazquez.com",
+   "url": "https://farmavazquez.com",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "intimissimi.com",
+   "url": "https://www.intimissimi.com/es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "electrodepot.es",
+   "url": "https://www.electrodepot.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "aquaservice.com",
+   "url": "https://www.aquaservice.com/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "motorola.com",
+   "url": "https://www.motorola.com/es/es/homepage",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "tramasmas.com",
+   "url": "https://www.tramasmas.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "kikocosmetics.com",
+   "url": "https://www.kikocosmetics.com/es-es/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "lacasadelelectrodomestico.com",
+   "url": "https://www.lacasadelelectrodomestico.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "michaelkors.es",
+   "url": "https://www.michaelkors.es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "footdistrict.com",
+   "url": "https://footdistrict.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "corsair.com",
+   "url": "https://www.corsair.com/es/es",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "a-alvarez.com",
+   "url": "https://www.a-alvarez.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "vestiairecollective.com",
+   "url": "https://www.vestiairecollective.com/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "lacoste.com",
+   "url": "https://www.lacoste.com/es/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "benetton.com",
+   "url": "https://es.benetton.com/?shpxid=6a481d08-9c2b-458f-b9d7-26acd7f74b18",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "vans.com",
+   "url": "https://www.vans.com/es-es",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "maspormenos.net",
+   "url": "https://maspormenos.net/",
+   "sector": "moda",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "sportsshoes.com",
+   "url": "https://www.sportsshoes.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "myrealfood.app",
+   "url": "https://www.myrealfood.app/es",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "foroatletismo.com",
+   "url": "https://www.foroatletismo.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "rowenta.es",
+   "url": "https://www.rowenta.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "pcbox.com",
+   "url": "https://www.pcbox.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "vtex"
+   ]
+  },
+  {
+   "dominio": "certideal.es",
+   "url": "https://www.certideal.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "joseluisjoyerias.com",
+   "url": "https://www.joseluisjoyerias.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "ekoi.es",
+   "url": "https://www.ekoi.es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "pikolin.com",
+   "url": "https://www.pikolin.com/es",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "ifixit.com",
+   "url": "https://es.ifixit.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "miroytengo.es",
+   "url": "https://miroytengo.es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "dormideo.com",
+   "url": "https://www.dormideo.com/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "lampara.es",
+   "url": "https://www.lampara.es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "canon.es",
+   "url": "https://www.canon.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "jbl.es",
+   "url": "https://www.jbl.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "bike-ocasion.com",
+   "url": "https://bike-ocasion.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "atmosferasport.es",
+   "url": "https://www.atmosferasport.es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "okfarma.es",
+   "url": "https://okfarma.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "vinoseleccion.com",
+   "url": "https://www.vinoseleccion.com/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "kenayhome.com",
+   "url": "https://kenayhome.com/es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "fitnessdigital.com",
+   "url": "https://www.fitnessdigital.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "claudiaandjulia.com",
+   "url": "https://claudiaandjulia.com/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "suunto.com",
+   "url": "https://www.suunto.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "themasie.com",
+   "url": "https://www.themasie.com/es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "thenorthface.com",
+   "url": "https://www.thenorthface.com/es-es",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "emma-colchon.es",
+   "url": "https://www.emma-colchon.es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "gelt.com",
+   "url": "https://gelt.com/es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "electroprecio.com",
+   "url": "https://www.electroprecio.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "iluminashop.com",
+   "url": "https://iluminashop.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "trainingpeaks.com",
+   "url": "https://www.trainingpeaks.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "swarovski.com",
+   "url": "https://www.swarovski.com/es-ES/",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "neobyte.es",
+   "url": "https://neobyte.es/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "storececotec.com",
+   "url": "https://cecotec.es/es",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "logitechg.com",
+   "url": "https://www.logitechg.com/es-es",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "alltricks.es",
+   "url": "https://www.alltricks.es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "lasirena.es",
+   "url": "https://www.lasirena.es/es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "vtex"
+   ]
+  },
+  {
+   "dominio": "canyon.com",
+   "url": "https://www.canyon.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "maxcolchon.com",
+   "url": "https://www.maxcolchon.com/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "dieteticacentral.com",
+   "url": "https://dieteticacentral.com",
+   "sector": "salud-parafarmacia",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "futbolfactory.es",
+   "url": "https://www.futbolfactory.es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "farmaciasenante.com",
+   "url": "https://farmaciasenante.com/",
+   "sector": "belleza",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "moulinex.es",
+   "url": "https://www.moulinex.es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "ginos.es",
+   "url": "https://www.ginos.es/",
+   "sector": "alimentacion",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "farmasoler.com",
+   "url": "https://www.farmasoler.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "swatch.com",
+   "url": "https://www.swatch.com/es-es/",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "biciescapa.com",
+   "url": "https://www.biciescapa.com/es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop",
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "westwing.es",
+   "url": "https://www.westwing.es/",
+   "sector": "hogar",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "ugreen.com",
+   "url": "https://www.ugreen.com/",
+   "sector": "electronica",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "walashop.com",
+   "url": "https://www.walashop.com/es",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "farmaciabarata.es",
+   "url": "https://www.farmaciabarata.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "motocrosscenter.com",
+   "url": "https://www.motocrosscenter.com/shop/es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "courir.es",
+   "url": "https://www.courir.es/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "joyeriasanchez.com",
+   "url": "https://www.joyeriasanchez.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "sportsdirect.com",
+   "url": "https://www.sportsdirect.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "rocjumper.com",
+   "url": "https://www.rocjumper.com/",
+   "sector": "deporte",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "unode50.com",
+   "url": "https://www.unode50.com/eu/es_ES/home",
+   "sector": "joyeria-lujo",
+   "tramo": "mediana",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "padelproshop.com",
+   "url": "https://padelproshop.com/",
+   "sector": "deporte",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "tiendaselectron.com",
+   "url": "https://tiendaselectron.com/",
+   "sector": "electronica",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "secretlab.eu",
+   "url": "https://secretlab.eu/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "smartgyro.es",
+   "url": "https://smartgyro.es/",
+   "sector": "electronica",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "tradingshenzhen.com",
+   "url": "https://tradingshenzhen.com/",
+   "sector": "electronica",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "joyeriasuarez.com",
+   "url": "https://www.joyeriasuarez.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "appinformatica.com",
+   "url": "https://www.appinformatica.com/",
+   "sector": "electronica",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "vtex"
+   ]
+  },
+  {
+   "dominio": "lolacasademunt.com",
+   "url": "https://www.lolacasademunt.com/es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "eurekaelectrodomesticos.es",
+   "url": "https://eurekaelectrodomesticos.es/",
+   "sector": "electronica",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "aristocrazy.com",
+   "url": "https://www.aristocrazy.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "polene-paris.com",
+   "url": "https://www.polene-paris.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "farmaciamarket.es",
+   "url": "https://www.farmaciamarket.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "charlottetilbury.com",
+   "url": "https://www.charlottetilbury.com/es",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "citizen.es",
+   "url": "https://citizen.es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "perfumeriajulia.es",
+   "url": "https://www.perfumeriajulia.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "pdpaola.com",
+   "url": "https://www.pdpaola.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "muebleslufe.com",
+   "url": "https://muebleslufe.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "clarins.es",
+   "url": "https://www.clarins.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "kerastase.es",
+   "url": "https://www.kerastase.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "ouraring.com",
+   "url": "https://ouraring.com/es",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "divainparfums.com",
+   "url": "https://divainparfums.com/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "orovivo.com",
+   "url": "https://orovivo.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "ventadecolchones.com",
+   "url": "https://ventadecolchones.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "banbu.es",
+   "url": "https://banbu.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "nicols.es",
+   "url": "https://nicols.es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "habitarehome.es",
+   "url": "https://habitarehome.es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "coach.com",
+   "url": "https://es.coach.com/es_ES",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "yopongoelhielo.com",
+   "url": "https://www.yopongoelhielo.com/es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "ecco-verde.es",
+   "url": "https://www.ecco-verde.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "viceroy.es",
+   "url": "https://viceroy.es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "ahorrototal.com",
+   "url": "https://www.ahorrototal.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "farmaferoles.es",
+   "url": "https://farmaferoles.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "casaviva.es",
+   "url": "https://www.casaviva.es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "mueblesrey.com",
+   "url": "https://www.reyhome.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "murona.com",
+   "url": "https://murona.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "manicura24.es",
+   "url": "https://www.manicura24.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "harveynichols.com",
+   "url": "https://www.harveynichols.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "bigcommerce"
+   ]
+  },
+  {
+   "dominio": "lepetitemarie.com",
+   "url": "https://lepetitemarie.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "jabonariumshop.com",
+   "url": "https://www.jabonariumshop.com/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "nichebeautylab.com",
+   "url": "https://nichebeautylab.com/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "beds.es",
+   "url": "https://www.beds.es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "comounamarmota.com",
+   "url": "https://comounamarmota.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "colchonesaznar.com",
+   "url": "https://colchonesaznar.com/es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "vinissimus.com",
+   "url": "https://www.vinissimus.com/es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "omegawatches.com",
+   "url": "https://www.omegawatches.com/es-es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "lineargent.com",
+   "url": "https://lineargent.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "glamira.es",
+   "url": "https://www.glamira.es/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "erborian.com",
+   "url": "https://www.erborian.com/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "oficinasmontiel.com",
+   "url": "https://www.oficinasmontiel.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "mobilifiver.com",
+   "url": "https://www.mobilifiver.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "twojeys.com",
+   "url": "https://twojeys.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "miumiu.com",
+   "url": "https://www.miumiu.com/es/es.html",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "dormity.com",
+   "url": "https://dormity.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "apodemia.com",
+   "url": "https://apodemia.com/",
+   "sector": "joyeria-lujo",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "farmaciasoler.com",
+   "url": "https://www.farmaciasoler.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "kibuc.com",
+   "url": "https://www.kibuc.com/es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "nuxe.com",
+   "url": "https://www.nuxe.com/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "antiquearteydecoracion.com",
+   "url": "https://antiquearteydecoracion.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "mondoconv.es",
+   "url": "https://www.mondoconv.es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "maccosmetics.es",
+   "url": "https://www.maccosmetics.es/",
+   "sector": "belleza",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "farma-vazquez.com",
+   "url": "https://farma-vazquez.com",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "hannun.com",
+   "url": "https://hannun.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "mengual.com",
+   "url": "https://www.mengual.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "centrohogarsanchez.es",
+   "url": "https://www.centrohogarsanchez.es/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "manterolcasa.com",
+   "url": "https://www.manterolcasa.com/",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "esteba.com",
+   "url": "https://www.esteba.com/es",
+   "sector": "hogar",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "welnia.com",
+   "url": "https://www.welnia.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "salesforce-cc"
+   ]
+  },
+  {
+   "dominio": "lavinateria.net",
+   "url": "https://www.lavinateria.net/es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "parafarmaciacampoamor.com",
+   "url": "https://www.parafarmaciacampoamor.com/es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "farmaferoles.com",
+   "url": "https://farmaferoles.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "cognac-expert.com",
+   "url": "https://www.cognac-expert.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "farmacianovadamaia.pt",
+   "url": "https://farmacianovadamaia.pt/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "vinopremier.com",
+   "url": "https://vinopremier.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "magento"
+   ]
+  },
+  {
+   "dominio": "atuafarmacia.pt",
+   "url": "https://atuafarmacia.pt/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "farmaciacuadrado.es",
+   "url": "https://www.farmaciacuadrado.es/es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "privateceller.es",
+   "url": "https://privateceller.es/es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "lactoflora.es",
+   "url": "https://www.lactoflora.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "cofpo.org",
+   "url": "https://cofpo.org/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "dermofarma.es",
+   "url": "https://www.dermofarma.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "turismodevino.com",
+   "url": "https://turismodevino.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "fmasonline.com",
+   "url": "https://www.fmasonline.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "pharmashop.es",
+   "url": "https://www.pharmashop.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "sensafarma.es",
+   "url": "https://www.sensafarma.es/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "vinosonline.es",
+   "url": "https://vinosonline.es/es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "farmaciaferromauri.com",
+   "url": "https://farmaciaferromauri.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop",
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "parafarmacia-online.com",
+   "url": "https://www.parafarmacia-online.com/",
+   "sector": "salud-parafarmacia",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "campoluzenoteca.com",
+   "url": "https://www.campoluzenoteca.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "prestashop"
+   ]
+  },
+  {
+   "dominio": "torremilanos.com",
+   "url": "https://www.torremilanos.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "elpaladar.es",
+   "url": "https://www.elpaladar.es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": []
+  },
+  {
+   "dominio": "lebaroudeurduvin.com",
+   "url": "https://www.lebaroudeurduvin.com/fr-es",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "htfwines.co.uk",
+   "url": "https://www.htfwines.co.uk/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "latraca.cat",
+   "url": "https://www.latraca.cat/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "vinosbaco.com",
+   "url": "https://www.vinosbaco.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "garciacarrion.com",
+   "url": "https://garciacarrion.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "shopify"
+   ]
+  },
+  {
+   "dominio": "osborne.es",
+   "url": "https://www.osborne.es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "sap-hybris"
+   ]
+  },
+  {
+   "dominio": "santacecilia.es",
+   "url": "https://santacecilia.es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "bodegasprotos.com",
+   "url": "https://www.bodegasprotos.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "marquesdemontecierzo.com",
+   "url": "https://marquesdemontecierzo.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "torrerosa.com",
+   "url": "https://www.torrerosa.com/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "boanndistillery.ie",
+   "url": "https://www.boanndistillery.ie/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  },
+  {
+   "dominio": "caballero.es",
+   "url": "https://caballero.es/",
+   "sector": "vinos-bebidas",
+   "tramo": "pequena",
+   "marketplace_global": false,
+   "plataformas": [
+    "woocommerce"
+   ]
+  }
+ ]
+}

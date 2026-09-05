@@ -1,0 +1,256 @@
+{
+  "version": "2026-09",
+  "location_code": 2724,
+  "language_code": "es",
+  "source": "Kiwop Labs. Lista fija de 60 términos en castellano sobre agencias, servicios digitales e IA en España, elegidos por relevancia para quien busca a quién contratar o qué hacer con la IA en su empresa. Congelada y versionada: cambiar un término es cambiar `version`.",
+  "groups": {
+    "agencias": "Agencias y proveedores",
+    "local": "Local (Tarragona, Reus, Barcelona)",
+    "precios": "Cuánto cuesta",
+    "ia-empresa": "IA para la empresa",
+    "geo-ia-buscadores": "GEO y buscadores con IA",
+    "ecommerce-tecnologia": "Ecommerce y tecnología"
+  },
+  "keywords": [
+    {
+      "keyword": "agencia seo",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia marketing digital",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia desarrollo web",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia diseño web",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia ia",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia inteligencia artificial",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia geo",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia sem",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia ecommerce",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia shopify",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia prestashop",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia magento",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia laravel",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia wordpress",
+      "group": "agencias"
+    },
+    {
+      "keyword": "consultoría ia",
+      "group": "agencias"
+    },
+    {
+      "keyword": "consultoría seo",
+      "group": "agencias"
+    },
+    {
+      "keyword": "empresa desarrollo web",
+      "group": "agencias"
+    },
+    {
+      "keyword": "empresa desarrollo software",
+      "group": "agencias"
+    },
+    {
+      "keyword": "mejor agencia seo españa",
+      "group": "agencias"
+    },
+    {
+      "keyword": "mejores agencias marketing digital españa",
+      "group": "agencias"
+    },
+    {
+      "keyword": "mejores agencias ia españa",
+      "group": "agencias"
+    },
+    {
+      "keyword": "agencia seo tarragona",
+      "group": "local"
+    },
+    {
+      "keyword": "agencia seo reus",
+      "group": "local"
+    },
+    {
+      "keyword": "agencia marketing digital tarragona",
+      "group": "local"
+    },
+    {
+      "keyword": "agencia marketing digital reus",
+      "group": "local"
+    },
+    {
+      "keyword": "diseño web tarragona",
+      "group": "local"
+    },
+    {
+      "keyword": "diseño web reus",
+      "group": "local"
+    },
+    {
+      "keyword": "agencia seo barcelona",
+      "group": "local"
+    },
+    {
+      "keyword": "agencia marketing digital barcelona",
+      "group": "local"
+    },
+    {
+      "keyword": "diseño web barcelona",
+      "group": "local"
+    },
+    {
+      "keyword": "desarrollo web barcelona",
+      "group": "local"
+    },
+    {
+      "keyword": "cuánto cuesta una página web",
+      "group": "precios"
+    },
+    {
+      "keyword": "cuánto cuesta una tienda online",
+      "group": "precios"
+    },
+    {
+      "keyword": "cuánto cuesta el seo",
+      "group": "precios"
+    },
+    {
+      "keyword": "cuánto cuesta un chatbot",
+      "group": "precios"
+    },
+    {
+      "keyword": "cuánto cuesta un proyecto de ia",
+      "group": "precios"
+    },
+    {
+      "keyword": "cuánto cuesta una app",
+      "group": "precios"
+    },
+    {
+      "keyword": "chatbot para empresas",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "agente de ia para empresas",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "rag empresarial",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "automatización con ia empresas",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "auditoría ia",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "ai act empresas",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "reglamento ia obligaciones",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "kit digital",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "kit consulting",
+      "group": "ia-empresa"
+    },
+    {
+      "keyword": "posicionamiento en ia",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "generative engine optimization",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "qué es llms.txt",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "ai overview",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "cómo aparecer en chatgpt",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "posicionamiento en chatgpt",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "seo para ia",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "webmcp",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "mcp model context protocol",
+      "group": "geo-ia-buscadores"
+    },
+    {
+      "keyword": "magento vs prestashop",
+      "group": "ecommerce-tecnologia"
+    },
+    {
+      "keyword": "shopify vs prestashop",
+      "group": "ecommerce-tecnologia"
+    },
+    {
+      "keyword": "migrar prestashop a shopify",
+      "group": "ecommerce-tecnologia"
+    },
+    {
+      "keyword": "headless commerce",
+      "group": "ecommerce-tecnologia"
+    },
+    {
+      "keyword": "desarrollo web a medida",
+      "group": "ecommerce-tecnologia"
+    }
+  ]
+}

@@ -1,0 +1,7595 @@
+{
+ "series": "preguntas-ia",
+ "month": "2026-09",
+ "generated_at": "2026-09-05T09:33:16+00:00",
+ "page": "https://www.kiwop.com/labs/preguntas-ia-espana",
+ "license": "CC BY 4.0",
+ "method": {
+  "keywords_version": "2026-09",
+  "n": 60,
+  "location_code": 2724,
+  "language_code": "es",
+  "source": "Kiwop Labs. Lista fija de 60 términos en castellano sobre agencias, servicios digitales e IA en España, elegidos por relevancia para quien busca a quién contratar o qué hacer con la IA en su empresa. Congelada y versionada: cambiar un término es cambiar `version`.",
+  "provider": "DataForSEO",
+  "ai_endpoint": "ai_optimization/ai_keyword_data/keywords_search_volume/live",
+  "google_endpoint": "keywords_data/google_ads/search_volume/live",
+  "cost_usd": 0.106,
+  "notes": [
+   "El volumen en asistentes de IA es una estimación del proveedor (no existe dato oficial de ChatGPT ni de ningún asistente): sirve para comparar términos entre sí y ver tendencias, no como cifra absoluta.",
+   "El volumen de Google es el de Google Ads (medias mensuales, búsqueda exacta, España, castellano).",
+   "ai_per_1000_google = consultas en IA por cada 1.000 búsquedas en Google del mismo término.",
+   "Los 60 términos están congelados y versionados; el histórico mensual es el que devuelve el proveedor en cada pasada."
+  ]
+ },
+ "aggregate": {
+  "total_ai_volume": 2389,
+  "total_google_volume": 78210,
+  "ai_per_1000_google": 30.5,
+  "terms_with_ai_volume": 28,
+  "groups": {
+   "agencias": {
+    "terms": 21,
+    "ai_volume": 719,
+    "google_volume": 16380,
+    "ai_with_volume": 15,
+    "ai_per_1000_google": 43.9,
+    "name": "Agencias y proveedores"
+   },
+   "local": {
+    "terms": 10,
+    "ai_volume": 2,
+    "google_volume": 6630,
+    "ai_with_volume": 1,
+    "ai_per_1000_google": 0.3,
+    "name": "Local (Tarragona, Reus, Barcelona)"
+   },
+   "precios": {
+    "terms": 6,
+    "ai_volume": 519,
+    "google_volume": 150,
+    "ai_with_volume": 5,
+    "ai_per_1000_google": 3460.0,
+    "name": "Cuánto cuesta"
+   },
+   "ia-empresa": {
+    "terms": 9,
+    "ai_volume": 1117,
+    "google_volume": 52120,
+    "ai_with_volume": 3,
+    "ai_per_1000_google": 21.4,
+    "name": "IA para la empresa"
+   },
+   "geo-ia-buscadores": {
+    "terms": 9,
+    "ai_volume": 32,
+    "google_volume": 2420,
+    "ai_with_volume": 4,
+    "ai_per_1000_google": 13.2,
+    "name": "GEO y buscadores con IA"
+   },
+   "ecommerce-tecnologia": {
+    "terms": 5,
+    "ai_volume": 0,
+    "google_volume": 510,
+    "ai_with_volume": 0,
+    "ai_per_1000_google": 0.0,
+    "name": "Ecommerce y tecnología"
+   }
+  },
+  "top_ai": [
+   {
+    "keyword": "kit digital",
+    "group": "ia-empresa",
+    "ai_volume": 1099,
+    "google_volume": 49500,
+    "ai_per_1000_google": 22.2
+   },
+   {
+    "keyword": "agencia marketing digital",
+    "group": "agencias",
+    "ai_volume": 233,
+    "google_volume": 2400,
+    "ai_per_1000_google": 97.1
+   },
+   {
+    "keyword": "cuánto cuesta una app",
+    "group": "precios",
+    "ai_volume": 198,
+    "google_volume": 40,
+    "ai_per_1000_google": 4950.0
+   },
+   {
+    "keyword": "agencia seo",
+    "group": "agencias",
+    "ai_volume": 195,
+    "google_volume": 4400,
+    "ai_per_1000_google": 44.3
+   },
+   {
+    "keyword": "cuánto cuesta una página web",
+    "group": "precios",
+    "ai_volume": 175,
+    "google_volume": 70,
+    "ai_per_1000_google": 2500.0
+   },
+   {
+    "keyword": "cuánto cuesta el seo",
+    "group": "precios",
+    "ai_volume": 135,
+    "google_volume": null,
+    "ai_per_1000_google": null
+   },
+   {
+    "keyword": "mejor agencia seo españa",
+    "group": "agencias",
+    "ai_volume": 128,
+    "google_volume": 110,
+    "ai_per_1000_google": 1163.6
+   },
+   {
+    "keyword": "mejores agencias marketing digital españa",
+    "group": "agencias",
+    "ai_volume": 58,
+    "google_volume": 20,
+    "ai_per_1000_google": 2900.0
+   },
+   {
+    "keyword": "agencia diseño web",
+    "group": "agencias",
+    "ai_volume": 23,
+    "google_volume": 1000,
+    "ai_per_1000_google": 23.0
+   },
+   {
+    "keyword": "agencia ia",
+    "group": "agencias",
+    "ai_volume": 23,
+    "google_volume": 880,
+    "ai_per_1000_google": 26.1
+   },
+   {
+    "keyword": "kit consulting",
+    "group": "ia-empresa",
+    "ai_volume": 17,
+    "google_volume": 2400,
+    "ai_per_1000_google": 7.1
+   },
+   {
+    "keyword": "seo para ia",
+    "group": "geo-ia-buscadores",
+    "ai_volume": 16,
+    "google_volume": 320,
+    "ai_per_1000_google": 50.0
+   },
+   {
+    "keyword": "consultoría seo",
+    "group": "agencias",
+    "ai_volume": 12,
+    "google_volume": 2900,
+    "ai_per_1000_google": 4.1
+   },
+   {
+    "keyword": "empresa desarrollo software",
+    "group": "agencias",
+    "ai_volume": 12,
+    "google_volume": 110,
+    "ai_per_1000_google": 109.1
+   },
+   {
+    "keyword": "ai overview",
+    "group": "geo-ia-buscadores",
+    "ai_volume": 12,
+    "google_volume": 1000,
+    "ai_per_1000_google": 12.0
+   },
+   {
+    "keyword": "cuánto cuesta una tienda online",
+    "group": "precios",
+    "ai_volume": 10,
+    "google_volume": 40,
+    "ai_per_1000_google": 250.0
+   },
+   {
+    "keyword": "agencia ecommerce",
+    "group": "agencias",
+    "ai_volume": 9,
+    "google_volume": 390,
+    "ai_per_1000_google": 23.1
+   },
+   {
+    "keyword": "agencia inteligencia artificial",
+    "group": "agencias",
+    "ai_volume": 6,
+    "google_volume": 320,
+    "ai_per_1000_google": 18.8
+   },
+   {
+    "keyword": "agencia sem",
+    "group": "agencias",
+    "ai_volume": 6,
+    "google_volume": 880,
+    "ai_per_1000_google": 6.8
+   },
+   {
+    "keyword": "mejores agencias ia españa",
+    "group": "agencias",
+    "ai_volume": 5,
+    "google_volume": null,
+    "ai_per_1000_google": null
+   }
+  ],
+  "top_ratio": [
+   {
+    "keyword": "cuánto cuesta una página web",
+    "group": "precios",
+    "ai_volume": 175,
+    "google_volume": 70,
+    "ai_per_1000_google": 2500.0
+   },
+   {
+    "keyword": "mejor agencia seo españa",
+    "group": "agencias",
+    "ai_volume": 128,
+    "google_volume": 110,
+    "ai_per_1000_google": 1163.6
+   },
+   {
+    "keyword": "empresa desarrollo software",
+    "group": "agencias",
+    "ai_volume": 12,
+    "google_volume": 110,
+    "ai_per_1000_google": 109.1
+   },
+   {
+    "keyword": "agencia marketing digital",
+    "group": "agencias",
+    "ai_volume": 233,
+    "google_volume": 2400,
+    "ai_per_1000_google": 97.1
+   },
+   {
+    "keyword": "seo para ia",
+    "group": "geo-ia-buscadores",
+    "ai_volume": 16,
+    "google_volume": 320,
+    "ai_per_1000_google": 50.0
+   },
+   {
+    "keyword": "agencia seo",
+    "group": "agencias",
+    "ai_volume": 195,
+    "google_volume": 4400,
+    "ai_per_1000_google": 44.3
+   },
+   {
+    "keyword": "agencia ia",
+    "group": "agencias",
+    "ai_volume": 23,
+    "google_volume": 880,
+    "ai_per_1000_google": 26.1
+   },
+   {
+    "keyword": "agencia ecommerce",
+    "group": "agencias",
+    "ai_volume": 9,
+    "google_volume": 390,
+    "ai_per_1000_google": 23.1
+   },
+   {
+    "keyword": "agencia diseño web",
+    "group": "agencias",
+    "ai_volume": 23,
+    "google_volume": 1000,
+    "ai_per_1000_google": 23.0
+   },
+   {
+    "keyword": "kit digital",
+    "group": "ia-empresa",
+    "ai_volume": 1099,
+    "google_volume": 49500,
+    "ai_per_1000_google": 22.2
+   }
+  ],
+  "ai_series": [
+   {
+    "month": "2025-09",
+    "ai_volume": 4207
+   },
+   {
+    "month": "2025-10",
+    "ai_volume": 4549
+   },
+   {
+    "month": "2025-11",
+    "ai_volume": 4607
+   },
+   {
+    "month": "2025-12",
+    "ai_volume": 5400
+   },
+   {
+    "month": "2026-01",
+    "ai_volume": 5433
+   },
+   {
+    "month": "2026-02",
+    "ai_volume": 5084
+   },
+   {
+    "month": "2026-03",
+    "ai_volume": 4966
+   },
+   {
+    "month": "2026-04",
+    "ai_volume": 4162
+   },
+   {
+    "month": "2026-05",
+    "ai_volume": 4086
+   },
+   {
+    "month": "2026-06",
+    "ai_volume": 2899
+   },
+   {
+    "month": "2026-07",
+    "ai_volume": 2590
+   },
+   {
+    "month": "2026-08",
+    "ai_volume": 2389
+   }
+  ]
+ },
+ "keywords": [
+  {
+   "keyword": "agencia seo",
+   "group": "agencias",
+   "ai_volume": 195,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 341
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 346
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 319
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 347
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 348
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 319
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 323
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 257
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 215
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 142
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 133
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 195
+    }
+   ],
+   "google_volume": 4400,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 14800
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 5400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1900
+    }
+   ],
+   "google_cpc": 18.73,
+   "ai_per_1000_google": 44.3
+  },
+  {
+   "keyword": "agencia marketing digital",
+   "group": "agencias",
+   "ai_volume": 233,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 256
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 280
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 309
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 382
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 394
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 377
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 438
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 378
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 380
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 258
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 256
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 233
+    }
+   ],
+   "google_volume": 2400,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 9900
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 880
+    }
+   ],
+   "google_cpc": 7.1,
+   "ai_per_1000_google": 97.1
+  },
+  {
+   "keyword": "agencia desarrollo web",
+   "group": "agencias",
+   "ai_volume": 4,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 38
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 26
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 14
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 21
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 21
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 9
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 4
+    }
+   ],
+   "google_volume": 590,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 170
+    }
+   ],
+   "google_cpc": 7.98,
+   "ai_per_1000_google": 6.8
+  },
+  {
+   "keyword": "agencia diseño web",
+   "group": "agencias",
+   "ai_volume": 23,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 58
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 72
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 66
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 86
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 77
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 61
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 32
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 36
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 28
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 23
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 23
+    }
+   ],
+   "google_volume": 1000,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 720
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 320
+    }
+   ],
+   "google_cpc": 4.62,
+   "ai_per_1000_google": 23.0
+  },
+  {
+   "keyword": "agencia ia",
+   "group": "agencias",
+   "ai_volume": 23,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 18
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 11
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 8
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 12
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 9
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 17
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 23
+    }
+   ],
+   "google_volume": 880,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 880
+    }
+   ],
+   "google_cpc": 5.48,
+   "ai_per_1000_google": 26.1
+  },
+  {
+   "keyword": "agencia inteligencia artificial",
+   "group": "agencias",
+   "ai_volume": 6,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 4
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 5
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 4
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 6
+    }
+   ],
+   "google_volume": 320,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 320
+    }
+   ],
+   "google_cpc": 11.01,
+   "ai_per_1000_google": 18.8
+  },
+  {
+   "keyword": "agencia geo",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 260,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 320
+    }
+   ],
+   "google_cpc": 21.54,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia sem",
+   "group": "agencias",
+   "ai_volume": 6,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 17
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 16
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 11
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 12
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 14
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 15
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 18
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 18
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 23
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 16
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 6
+    }
+   ],
+   "google_volume": 880,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 4400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 480
+    }
+   ],
+   "google_cpc": 20.11,
+   "ai_per_1000_google": 6.8
+  },
+  {
+   "keyword": "agencia ecommerce",
+   "group": "agencias",
+   "ai_volume": 9,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 5
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 6
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 13
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 7
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 9
+    }
+   ],
+   "google_volume": 390,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 110
+    }
+   ],
+   "google_cpc": 12.31,
+   "ai_per_1000_google": 23.1
+  },
+  {
+   "keyword": "agencia shopify",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 1
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 2
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 170,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 70
+    }
+   ],
+   "google_cpc": 10.8,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia prestashop",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 590,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1300
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 320
+    }
+   ],
+   "google_cpc": 18.55,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia magento",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 20,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia laravel",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "agencia wordpress",
+   "group": "agencias",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 70,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 40
+    }
+   ],
+   "google_cpc": 6.86,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "consultoría ia",
+   "group": "agencias",
+   "ai_volume": 1,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 3
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 1
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 1
+    }
+   ],
+   "google_volume": 390,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 260
+    }
+   ],
+   "google_cpc": 7.7,
+   "ai_per_1000_google": 2.6
+  },
+  {
+   "keyword": "consultoría seo",
+   "group": "agencias",
+   "ai_volume": 12,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 13
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 19
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 23
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 12
+    }
+   ],
+   "google_volume": 2900,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 12100
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 3600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1300
+    }
+   ],
+   "google_cpc": 7.53,
+   "ai_per_1000_google": 4.1
+  },
+  {
+   "keyword": "empresa desarrollo web",
+   "group": "agencias",
+   "ai_volume": 4,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 14
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 14
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 9
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 23
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 38
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 35
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 7
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 4
+    }
+   ],
+   "google_volume": 880,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 3600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 480
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 210
+    }
+   ],
+   "google_cpc": 5.22,
+   "ai_per_1000_google": 4.5
+  },
+  {
+   "keyword": "empresa desarrollo software",
+   "group": "agencias",
+   "ai_volume": 12,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 22
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 19
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 24
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 31
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 25
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 27
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 17
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 18
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 8
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 9
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 12
+    }
+   ],
+   "google_volume": 110,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 90
+    }
+   ],
+   "google_cpc": 6.64,
+   "ai_per_1000_google": 109.1
+  },
+  {
+   "keyword": "mejor agencia seo españa",
+   "group": "agencias",
+   "ai_volume": 128,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 103
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 133
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 129
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 147
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 162
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 178
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 186
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 143
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 113
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 86
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 84
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 128
+    }
+   ],
+   "google_volume": 110,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 50
+    }
+   ],
+   "google_cpc": 5.25,
+   "ai_per_1000_google": 1163.6
+  },
+  {
+   "keyword": "mejores agencias marketing digital españa",
+   "group": "agencias",
+   "ai_volume": 58,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 35
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 44
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 87
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 87
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 85
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 132
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 133
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 135
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 84
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 79
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 58
+    }
+   ],
+   "google_volume": 20,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": 2.64,
+   "ai_per_1000_google": 2900.0
+  },
+  {
+   "keyword": "mejores agencias ia españa",
+   "group": "agencias",
+   "ai_volume": 5,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 5
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "agencia seo tarragona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 140,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia seo reus",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 40,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia marketing digital tarragona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 50,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 20
+    }
+   ],
+   "google_cpc": 5.47,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia marketing digital reus",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 10,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "diseño web tarragona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 320,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 140
+    }
+   ],
+   "google_cpc": 3.08,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "diseño web reus",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 70,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 20
+    }
+   ],
+   "google_cpc": 1.43,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "agencia seo barcelona",
+   "group": "local",
+   "ai_volume": 2,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 2
+    }
+   ],
+   "google_volume": 2400,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1300
+    }
+   ],
+   "google_cpc": 13.02,
+   "ai_per_1000_google": 0.8
+  },
+  {
+   "keyword": "agencia marketing digital barcelona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 5
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 9
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 7
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 5
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 880,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 590
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 110
+    }
+   ],
+   "google_cpc": 5.69,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "diseño web barcelona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 2400,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 6600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 2900
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1300
+    }
+   ],
+   "google_cpc": 7.65,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "desarrollo web barcelona",
+   "group": "local",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 320,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1600
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 50
+    }
+   ],
+   "google_cpc": 14.41,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "cuánto cuesta una página web",
+   "group": "precios",
+   "ai_volume": 175,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 464
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 440
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 405
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 421
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 436
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 379
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 273
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 292
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 164
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 175
+    }
+   ],
+   "google_volume": 70,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 50
+    }
+   ],
+   "google_cpc": 4.44,
+   "ai_per_1000_google": 2500.0
+  },
+  {
+   "keyword": "cuánto cuesta una tienda online",
+   "group": "precios",
+   "ai_volume": 10,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 43
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 64
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 64
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 83
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 69
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 25
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 28
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 11
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 10
+    }
+   ],
+   "google_volume": 40,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 250.0
+  },
+  {
+   "keyword": "cuánto cuesta el seo",
+   "group": "precios",
+   "ai_volume": 135,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 185
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 192
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 177
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 214
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 224
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 218
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 186
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 164
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 168
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 116
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 135
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "cuánto cuesta un chatbot",
+   "group": "precios",
+   "ai_volume": 1,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 9
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 7
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 4
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 6
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 8
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 1
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "cuánto cuesta un proyecto de ia",
+   "group": "precios",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "cuánto cuesta una app",
+   "group": "precios",
+   "ai_volume": 198,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 300
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 303
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 372
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 354
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 335
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 335
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 299
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 305
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 214
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 216
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 198
+    }
+   ],
+   "google_volume": 40,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 40
+    }
+   ],
+   "google_cpc": 3.01,
+   "ai_per_1000_google": 4950.0
+  },
+  {
+   "keyword": "chatbot para empresas",
+   "group": "ia-empresa",
+   "ai_volume": 1,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 1
+    }
+   ],
+   "google_volume": 140,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 390
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 40
+    }
+   ],
+   "google_cpc": 21.53,
+   "ai_per_1000_google": 7.1
+  },
+  {
+   "keyword": "agente de ia para empresas",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 70,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 70
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 50
+    }
+   ],
+   "google_cpc": 15.72,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "rag empresarial",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 10,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "automatización con ia empresas",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "auditoría ia",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "ai act empresas",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "reglamento ia obligaciones",
+   "group": "ia-empresa",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "kit digital",
+   "group": "ia-empresa",
+   "ai_volume": 1099,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2142
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 2404
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 2494
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 2942
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 2964
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2767
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2615
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 2215
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 2183
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1615
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1371
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 1099
+    }
+   ],
+   "google_volume": 49500,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 49500
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 90500
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 135000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 49500
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 33100
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 27100
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 27100
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 27100
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 22200
+    }
+   ],
+   "google_cpc": 5.22,
+   "ai_per_1000_google": 22.2
+  },
+  {
+   "keyword": "kit consulting",
+   "group": "ia-empresa",
+   "ai_volume": 17,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 83
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 95
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 83
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 89
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 65
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 64
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 68
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 56
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 57
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 26
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 26
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 17
+    }
+   ],
+   "google_volume": 2400,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 5400
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1900
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1900
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 2400
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2900
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1600
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1000
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 880
+    }
+   ],
+   "google_cpc": 3.87,
+   "ai_per_1000_google": 7.1
+  },
+  {
+   "keyword": "posicionamiento en ia",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 50,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 50
+    }
+   ],
+   "google_cpc": 7.84,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "generative engine optimization",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 2,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 1
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 1
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 4
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 2
+    }
+   ],
+   "google_volume": 320,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 480
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 170
+    }
+   ],
+   "google_cpc": 12.42,
+   "ai_per_1000_google": 6.2
+  },
+  {
+   "keyword": "qué es llms.txt",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "ai overview",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 12,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 31
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 24
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 24
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 23
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 28
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 36
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 27
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 12
+    }
+   ],
+   "google_volume": 1000,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 1000
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 880
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 1300
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 720
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1000
+    }
+   ],
+   "google_cpc": 1.17,
+   "ai_per_1000_google": 12.0
+  },
+  {
+   "keyword": "cómo aparecer en chatgpt",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": null,
+   "google_monthly": [],
+   "google_cpc": null,
+   "ai_per_1000_google": null
+  },
+  {
+   "keyword": "posicionamiento en chatgpt",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 30,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 40
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "seo para ia",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 16,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 19
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 21
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 32
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 44
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 42
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 43
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 38
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 32
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 17
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 16
+    }
+   ],
+   "google_volume": 320,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 260
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 320
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 260
+    }
+   ],
+   "google_cpc": 7.67,
+   "ai_per_1000_google": 50.0
+  },
+  {
+   "keyword": "webmcp",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 590,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 4400
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 880
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 590
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 320
+    }
+   ],
+   "google_cpc": 4.32,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "mcp model context protocol",
+   "group": "geo-ia-buscadores",
+   "ai_volume": 2,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 3
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 3
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 2
+    }
+   ],
+   "google_volume": 110,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 170
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 110
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 70
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 90
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 70
+    }
+   ],
+   "google_cpc": 20.99,
+   "ai_per_1000_google": 18.2
+  },
+  {
+   "keyword": "magento vs prestashop",
+   "group": "ecommerce-tecnologia",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 20,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 90
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "shopify vs prestashop",
+   "group": "ecommerce-tecnologia",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 40,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 140
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 30
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 20
+    }
+   ],
+   "google_cpc": 0.62,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "migrar prestashop a shopify",
+   "group": "ecommerce-tecnologia",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 20,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 10
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 20
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 10
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 10
+    }
+   ],
+   "google_cpc": 13.77,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "headless commerce",
+   "group": "ecommerce-tecnologia",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 0
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 40,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 50
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 20
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 40
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 110
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 50
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 30
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 30
+    }
+   ],
+   "google_cpc": null,
+   "ai_per_1000_google": 0.0
+  },
+  {
+   "keyword": "desarrollo web a medida",
+   "group": "ecommerce-tecnologia",
+   "ai_volume": 0,
+   "ai_monthly": [
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 4
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 3
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 4
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 3
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 2
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 1
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 0
+    },
+    {
+     "year": 2026,
+     "month": 8,
+     "volume": 0
+    }
+   ],
+   "google_volume": 390,
+   "google_monthly": [
+    {
+     "year": 2025,
+     "month": 8,
+     "volume": 210
+    },
+    {
+     "year": 2025,
+     "month": 9,
+     "volume": 2400
+    },
+    {
+     "year": 2025,
+     "month": 10,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 11,
+     "volume": 320
+    },
+    {
+     "year": 2025,
+     "month": 12,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 1,
+     "volume": 260
+    },
+    {
+     "year": 2026,
+     "month": 2,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 3,
+     "volume": 390
+    },
+    {
+     "year": 2026,
+     "month": 4,
+     "volume": 210
+    },
+    {
+     "year": 2026,
+     "month": 5,
+     "volume": 140
+    },
+    {
+     "year": 2026,
+     "month": 6,
+     "volume": 170
+    },
+    {
+     "year": 2026,
+     "month": 7,
+     "volume": 110
+    }
+   ],
+   "google_cpc": 6.5,
+   "ai_per_1000_google": 0.0
+  }
+ ]
+}

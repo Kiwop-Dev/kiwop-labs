@@ -8,6 +8,7 @@ Scripts y datasets abiertos de [Kiwop Labs](https://www.kiwop.com/labs): lo que 
 |---|---|---|---|
 | **Baseline GEO** (mensual) | Qué agencias recomiendan ChatGPT, Claude, Gemini y Perplexity para 40 preguntas de compra en España, qué dominios citan y dónde aparece Kiwop. Respuestas íntegras publicadas. | [/labs/geo-baseline](https://www.kiwop.com/labs/geo-baseline) | [`data/geo-baseline/`](data/geo-baseline/) |
 | **IA en el ecommerce español** (trimestral) | 300 tiendas online: crawlers de IA en robots.txt, llms.txt (y su origen), schema Product en ficha, chatbots y buscadores. | [/labs/ia-ecommerce-espana](https://www.kiwop.com/labs/ia-ecommerce-espana) | [`data/ecommerce-ia/`](data/ecommerce-ia/) |
+| **Qué se pregunta a la IA en España** (mensual) | Consultas en asistentes de IA frente a Google para 60 términos sobre agencias, precios e IA para empresas; consultas en IA por cada 1.000 en Google. | [/labs/preguntas-ia-espana](https://www.kiwop.com/labs/preguntas-ia-espana) | [`data/preguntas-ia/`](data/preguntas-ia/) |
 | **WebMCP repro** | Repro mínimo del crash del renderer de Chrome con WebMCP + navegación same-document (crbug 534655509). | [/webmcp-repro](https://www.kiwop.com/webmcp-repro) | [`webmcp-repro/`](webmcp-repro/) |
 
 ## geo-baseline
@@ -36,6 +37,10 @@ Nivel 1 (automático, n=300):
 `npm install && npm test` corre los tests unitarios de los parsers. No se compra nada, no se crean cuentas y no se resuelve ningún CAPTCHA: un bloqueo anti-bot es un resultado.
 
 Nivel 2 (prueba agéntica, n=40): el protocolo está preregistrado en [`protocolo-agentico.md`](estudio-ecommerce/protocolo-agentico.md) antes de medir. Se publica en el cuarto trimestre de 2026.
+
+## preguntas-ia y nota-mensual
+
+`preguntas_ia.py run --month AAAA-MM` mide los 60 términos de `keywords.json` (volumen en asistentes de IA por DataForSEO AI Keyword Data y en Google Ads, España/es) y escribe el JSON de la serie. `nota_mensual.py` extrae los hechos del mes de los datasets, pide a Claude una nota en 7 idiomas solo con esos hechos y abre una tarea de revisión: el cron redacta, una persona publica. `monthly.sh` es la pasada del día 1 que encadena baseline, preguntas, nota, commit, deploy y avisos.
 
 ## webmcp-repro
 

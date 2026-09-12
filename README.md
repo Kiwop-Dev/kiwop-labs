@@ -9,6 +9,8 @@ Scripts y datasets abiertos de [Kiwop Labs](https://www.kiwop.com/labs): lo que 
 | **Baseline GEO** (mensual) | Qué agencias recomiendan ChatGPT, Claude, Gemini y Perplexity para 40 preguntas de compra en España, qué dominios citan y dónde aparece Kiwop. Respuestas íntegras publicadas. | [/labs/geo-baseline](https://www.kiwop.com/labs/geo-baseline) | [`data/geo-baseline/`](data/geo-baseline/) |
 | **IA en el ecommerce español** (trimestral) | 300 tiendas online: crawlers de IA en robots.txt, llms.txt (y su origen), schema Product en ficha, chatbots y buscadores. | [/labs/ia-ecommerce-espana](https://www.kiwop.com/labs/ia-ecommerce-espana) | [`data/ecommerce-ia/`](data/ecommerce-ia/) |
 | **Qué se pregunta a la IA en España** (mensual) | Consultas en asistentes de IA frente a Google para 60 términos sobre agencias, precios e IA para empresas; consultas en IA por cada 1.000 en Google. | [/labs/preguntas-ia-espana](https://www.kiwop.com/labs/preguntas-ia-espana) | [`data/preguntas-ia/`](data/preguntas-ia/) |
+| **Comprobador «¿Está tu tienda preparada para la IA?»** (bajo demanda) | Un dominio → informe público 0-100 con el mismo medidor del estudio: crawlers de IA en robots.txt, acceso al bot, llms.txt y su origen, JSON-LD de la home, ficha con Product+Offer, sitemap, HTTPS. Doble pasada HTTP → Chromium. | [/labs/comprobador-ia-ecommerce](https://www.kiwop.com/labs/comprobador-ia-ecommerce) | JSON por informe (`?format=json`) |
+| **Agentes de IA en producción** (trimestral) | Agregados de la telemetría de Nexo, la plataforma de Kiwop: ejecuciones y fallos de agentes, comentarios firmados por una persona, PR del worker autónomo, triage y guardián de correo, coste por API y por suscripción, crons. Sin nombres ni textos. | [/labs/agentes-ia-produccion](https://www.kiwop.com/labs/agentes-ia-produccion) | [`data/agentes-produccion/`](data/agentes-produccion/) |
 | **WebMCP repro** | Repro mínimo del crash del renderer de Chrome con WebMCP + navegación same-document (crbug 534655509). | [/webmcp-repro](https://www.kiwop.com/webmcp-repro) | [`webmcp-repro/`](webmcp-repro/) |
 
 ## geo-baseline
@@ -41,6 +43,16 @@ Nivel 2 (prueba agéntica, n=40): el protocolo está preregistrado en [`protocol
 ## preguntas-ia y nota-mensual
 
 `preguntas_ia.py run --month AAAA-MM` mide los 60 términos de `keywords.json` (volumen en asistentes de IA por DataForSEO AI Keyword Data y en Google Ads, España/es) y escribe el JSON de la serie. `nota_mensual.py` extrae los hechos del mes de los datasets, pide a Claude una nota en 7 idiomas solo con esos hechos y abre una tarea de revisión: el cron redacta, una persona publica. `monthly.sh` es la pasada del día 1 que encadena baseline, preguntas, nota, commit, deploy y avisos.
+
+## comprobador
+
+`node worker.mjs --once tienda.es` mide un dominio y lo imprime (sin cola). En kiwop.com el mismo código corre como worker de una cola de ficheros (`store.mjs`) alimentada por la API del sitio. `medir-dominio.mjs` reutiliza los helpers de `estudio-ecommerce/medir.mjs` (parser de robots, política por bot, tipos JSON-LD) para que tienda y estudio midan igual; `safeFetch` resuelve las redirecciones a mano y comprueba que cada salto vaya a una IP pública (el dominio lo teclea cualquiera). La puntuación (`puntuar`) está versionada: crawlers 25, acceso 10, llms.txt 15, schema de la home 10, ficha Product+Offer 25, sitemap 10, HTTPS 5. Si la tienda devuelve un desafío anti-bot a nuestro servidor, el informe lo dice y no puntúa.
+
+Dependencias: Node 22+, `playwright` (Chromium) para la segunda pasada; sin navegador mide solo por HTTP.
+
+## agentes-produccion
+
+`agregar.sql` es una consulta de solo lectura sobre la base de datos de Nexo (Postgres) que devuelve una fila JSON con agregados de 90 días: nada identificable, solo contadores, distribuciones y medianas. `medir.sh` la ejecuta cada trimestre por SSH y publica el dataset. Las definiciones (qué es una ejecución, una firma, un PR entregado) están comentadas en el propio SQL.
 
 ## webmcp-repro
 

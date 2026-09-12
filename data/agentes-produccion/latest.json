@@ -1,0 +1,242 @@
+{
+ "series": "agentes-produccion",
+ "periodo": "2026-09",
+ "generado_en": "2026-09-12T10:13:24.289059+02:00",
+ "ventana": {
+  "desde": "2026-06-14",
+  "hasta": "2026-09-12",
+  "dias": 90
+ },
+ "page": "https://www.kiwop.com/labs/agentes-ia-produccion",
+ "license": "CC BY 4.0",
+ "metodo": "Agregados de la telemetría de Nexo (plataforma de Kiwop en producción): ejecuciones de agentes, comentarios firmados, PR del worker, triage y guardián de correo, consultas al cerebro, secuencias de leads, metering de la API y del CLI, y crons. Ventana de 90 días. Sin nombres, textos ni ids. Consulta pública en scripts/labs/agentes-produccion/agregar.sql.",
+ "notas": [
+  "coste_api.coste_facturado_eur es lo que pasa por API de pago; coste_equivalente_suscripcion_eur es lo que va por suscripción (console_auth) valorado a precio de API, no facturado.",
+  "coste_cli.coste_lista_usd es el consumo real de las suscripciones del CLI valorado a precio de lista en USD.",
+  "Los comentarios de agente nacen pendientes: firmados = una persona los validó en la web.",
+  "agentes_proactivos.duracion en segundos desde started_at hasta completed_at."
+ ],
+ "agentes_proactivos": {
+  "ejecuciones": 1191,
+  "completadas": 1163,
+  "fallidas": 16,
+  "exito_pct": 97.6,
+  "agentes_activos": 30,
+  "duracion_mediana_s": 70.0,
+  "duracion_p90_s": 164.0,
+  "por_nivel_alerta": {
+   "warning": 215,
+   "ok": 858,
+   "sin nivel": 28,
+   "critical": 90
+  }
+ },
+ "comentarios_agente": {
+  "propuestos": 293,
+  "notas_internas": 195,
+  "para_cliente": 98,
+  "firmados": 184,
+  "firmados_pct": 62.8,
+  "para_cliente_firmados": 50,
+  "para_cliente_firmados_pct": 51.0,
+  "horas_hasta_firma_mediana": 78.2
+ },
+ "worker_autonomo": {
+  "tareas_reclamadas": 25,
+  "pr_entregados": 19,
+  "horas_reclamo_a_pr_mediana": 0.4,
+  "pasadas": 17634,
+  "cola_media": 0.0,
+  "tareas_triadas": 30,
+  "tareas_delegadas": 4,
+  "fallbacks": 1
+ },
+ "triage_correo": {
+  "items": 120,
+  "por_tipo": {
+   "reply": 56,
+   "ignore": 38,
+   "task": 26
+  },
+  "por_confianza": {
+   "sin dato": 82,
+   "high": 27,
+   "low": 11
+  },
+  "clasificador_fallido_pct": 0.8,
+  "latencia_mediana_ms": 9900,
+  "decididos": 63,
+  "por_decision": {
+   "thread_duplicate": 3,
+   "sin decidir": 54,
+   "mirrored": 9,
+   "auto_attached": 32,
+   "auto_created": 22
+  },
+  "tareas_creadas": 22
+ },
+ "guardian_correo": {
+  "revisiones": 1634,
+  "por_veredicto": {
+   "suggest": 117,
+   "block": 102,
+   "ok": 1415
+  },
+  "aceptadas_pct": 65.1,
+  "latencia_mediana_ms": 7912,
+  "sugerencias_media": 0.41
+ },
+ "ask_josep": {
+  "consultas": 231,
+  "escaladas": 97,
+  "escaladas_pct": 42.0,
+  "valoradas": 0,
+  "utiles_pct": null,
+  "similitud_mediana": 0.523
+ },
+ "agente_leads": {
+  "secuencias": 45,
+  "por_estado": {
+   "waiting": 3,
+   "stopped": 37,
+   "scheduled": 1,
+   "replied": 4
+  },
+  "seguimientos_enviados": 8,
+  "por_motivo_parada": {
+   "activa": 8,
+   "borrador sin revisar durante 6 días": 1,
+   "clasificado como «Proveedor»: no se contacta": 17,
+   "not_business": 9,
+   "reconciliado: la conversación ya existía en el buzón": 1,
+   "borrador sin revisar durante 4 días": 2,
+   "borrador sin revisar durante 7 días": 1,
+   "proveedor haciendo outreach: fuera del pipeline comercial": 4,
+   "clasificado como «Otro»: no se contacta": 2
+  }
+ },
+ "coste_api": {
+  "llamadas": 9169,
+  "tokens_entrada": 544278896,
+  "tokens_salida": 9413571,
+  "coste_facturado_eur": 1097.27,
+  "coste_equivalente_suscripcion_eur": 1377.7,
+  "por_feature": {
+   "agent": {
+    "llamadas": 4288,
+    "tokens_entrada": 290013290,
+    "tokens_salida": 7137445,
+    "coste_eur": 1431.31
+   },
+   "chat": {
+    "llamadas": 1930,
+    "tokens_entrada": 92911386,
+    "tokens_salida": 461443,
+    "coste_eur": 401.42
+   },
+   "guardian": {
+    "llamadas": 1707,
+    "tokens_entrada": 89551896,
+    "tokens_salida": 778444,
+    "coste_eur": 292.86
+   },
+   "triage": {
+    "llamadas": 678,
+    "tokens_entrada": 29726208,
+    "tokens_salida": 392811,
+    "coste_eur": 158.66
+   },
+   "project_chat": {
+    "llamadas": 248,
+    "tokens_entrada": 26912108,
+    "tokens_salida": 361827,
+    "coste_eur": 109.97
+   },
+   "outbound": {
+    "llamadas": 219,
+    "tokens_entrada": 9648065,
+    "tokens_salida": 64547,
+    "coste_eur": 49.73
+   },
+   "academy": {
+    "llamadas": 73,
+    "tokens_entrada": 4198449,
+    "tokens_salida": 109663,
+    "coste_eur": 23.87
+   },
+   "newsletter": {
+    "llamadas": 14,
+    "tokens_entrada": 723411,
+    "tokens_salida": 75011,
+    "coste_eur": 5.49
+   },
+   "seo_content": {
+    "llamadas": 10,
+    "tokens_entrada": 493227,
+    "tokens_salida": 29944,
+    "coste_eur": 1.09
+   },
+   "cro": {
+    "llamadas": 2,
+    "tokens_entrada": 100856,
+    "tokens_salida": 2436,
+    "coste_eur": 0.57
+   }
+  },
+  "por_proveedor": {
+   "openai": 1,
+   "anthropic": 9168
+  },
+  "modelos_distintos": 10,
+  "latencia_mediana_ms": 14623,
+  "cache_lectura_pct": 0.0
+ },
+ "coste_cli": {
+  "sesiones": 5663,
+  "turnos": 15944,
+  "tokens_entrada": 54794,
+  "tokens_salida": 8766961,
+  "tokens_cache_lectura": 723172450,
+  "tokens_cache_creacion": 231912499,
+  "coste_lista_usd": 2545.61,
+  "por_origen": {
+   "relay-claude": {
+    "sesiones": 2620,
+    "turnos": 3561,
+    "coste_lista_usd": 1032.92
+   },
+   "worker-autonomo": {
+    "sesiones": 542,
+    "turnos": 5494,
+    "coste_lista_usd": 995.24
+   },
+   "plataforma-binario": {
+    "sesiones": 1300,
+    "turnos": 4508,
+    "coste_lista_usd": 494.4
+   },
+   "brain-relay": {
+    "sesiones": 1195,
+    "turnos": 2371,
+    "coste_lista_usd": 22.89
+   },
+   "sin-clasificar": {
+    "sesiones": 6,
+    "turnos": 10,
+    "coste_lista_usd": 0.16
+   }
+  }
+ },
+ "crons": {
+  "ejecuciones": 217849,
+  "tareas_distintas": 241,
+  "por_resultado": {
+   "skipped": 11593,
+   "failed": 118,
+   "running": 1,
+   "ok": 206137
+  },
+  "fallidas_pct": 0.05,
+  "duracion_mediana_ms": 1963
+ }
+}

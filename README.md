@@ -11,6 +11,7 @@ Scripts y datasets abiertos de [Kiwop Labs](https://www.kiwop.com/labs): lo que 
 | **Qué se pregunta a la IA en España** (mensual) | Consultas en asistentes de IA frente a Google para 60 términos sobre agencias, precios e IA para empresas; consultas en IA por cada 1.000 en Google. | [/labs/preguntas-ia-espana](https://www.kiwop.com/labs/preguntas-ia-espana) | [`data/preguntas-ia/`](data/preguntas-ia/) |
 | **Comprobador «¿Está tu tienda preparada para la IA?»** (bajo demanda) | Un dominio → informe público 0-100 con el mismo medidor del estudio: crawlers de IA en robots.txt, acceso al bot, llms.txt y su origen, JSON-LD de la home, ficha con Product+Offer, sitemap, HTTPS. Doble pasada HTTP → Chromium. | [/labs/comprobador-ia-ecommerce](https://www.kiwop.com/labs/comprobador-ia-ecommerce) | JSON por informe (`?format=json`) |
 | **Agentes de IA en producción** (trimestral) | Agregados de la telemetría de Nexo, la plataforma de Kiwop: ejecuciones y fallos de agentes, comentarios firmados por una persona, PR del worker autónomo, triage y guardián de correo, coste por API y por suscripción, crons. Sin nombres ni textos. | [/labs/agentes-ia-produccion](https://www.kiwop.com/labs/agentes-ia-produccion) | [`data/agentes-produccion/`](data/agentes-produccion/) |
+| **Precios publicados de servicios digitales en España** (trimestral) | 74 precios que 36 proveedores publican en su web (web, tienda online, SEO, mantenimiento, hora, IA, chatbots, GEO, Ads), recapturados por script y agregados en medianas y cuartiles por servicio. | [/labs/precios-servicios-digitales-espana](https://www.kiwop.com/labs/precios-servicios-digitales-espana) | [`data/precios/`](data/precios/) |
 | **WebMCP repro** | Repro mínimo del crash del renderer de Chrome con WebMCP + navegación same-document (crbug 534655509). | [/webmcp-repro](https://www.kiwop.com/webmcp-repro) | [`webmcp-repro/`](webmcp-repro/) |
 
 ## geo-baseline
@@ -53,6 +54,10 @@ Dependencias: Node 22+, `playwright` (Chromium) para la segunda pasada; sin nave
 ## agentes-produccion
 
 `agregar.sql` es una consulta de solo lectura sobre la base de datos de Nexo (Postgres) que devuelve una fila JSON con agregados de 90 días: nada identificable, solo contadores, distribuciones y medianas. `medir.sh` la ejecuta cada trimestre por SSH y publica el dataset. Las definiciones (qué es una ejecución, una firma, un PR entregado) están comentadas en el propio SQL.
+
+## precios
+
+`precios.py run --period AAAA-MM` descarga cada URL de `fuentes.json` una vez, extrae el texto visible (descartando precios tachados), comprueba que el texto literal del precio sigue ahí y agrega por servicio (n, mínimo, cuartiles, mediana, máximo). Solo precios publicados por el propio proveedor; un registro que ya no se verifica se conserva con su estado y no entra en las medianas. Solo biblioteca estándar de Python.
 
 ## webmcp-repro
 

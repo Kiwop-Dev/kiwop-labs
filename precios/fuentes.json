@@ -1,0 +1,757 @@
+{
+ "version": "2026-09a",
+ "nota": "Precios PUBLICADOS por el propio proveedor en su web, capturados el 12-sep-2026 (verificación manual) y recapturados por script cada trimestre. Sin IVA salvo que la página lo incluya. 'desde' = mínimo anunciado, no precio cerrado. Kiwop está en la lista con sus precios públicos; no se pondera de forma distinta.",
+ "servicios": {
+  "1": "Web corporativa",
+  "2": "Tienda online",
+  "3": "SEO mensual",
+  "4": "Mantenimiento web mensual",
+  "5": "Hora de desarrollo",
+  "6": "Consultoría o formación en IA",
+  "7": "Chatbot o agente de IA",
+  "8": "GEO (visibilidad en asistentes de IA)",
+  "9": "Gestión de Google Ads o redes"
+ },
+ "fuentes": [
+  {
+   "proveedor": "Kiwop",
+   "url": "https://www.kiwop.com/geo",
+   "servicio": 8,
+   "precio": 1500,
+   "unidad": "€/mes",
+   "texto_literal": "1.500 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Reus"
+  },
+  {
+   "proveedor": "Kiwop",
+   "url": "https://www.kiwop.com/academy/sesion-estrategia",
+   "servicio": 6,
+   "precio": 129,
+   "unidad": "€",
+   "texto_literal": "129 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Reus"
+  },
+  {
+   "proveedor": "Javadex",
+   "url": "https://www.javadex.es/servicios",
+   "servicio": 6,
+   "precio": 2500,
+   "unidad": "€/mes desde",
+   "texto_literal": "Desde 2.500 €/mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Vigo"
+  },
+  {
+   "proveedor": "Javadex",
+   "url": "https://www.javadex.es/servicios",
+   "servicio": 8,
+   "precio": 4000,
+   "unidad": "€ desde",
+   "texto_literal": "Desde 4.000 €",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Vigo"
+  },
+  {
+   "proveedor": "TodoBravo",
+   "url": "https://www.todobravo.es/tarifas/seo/",
+   "servicio": 3,
+   "precio": 119,
+   "unidad": "€/mes",
+   "texto_literal": "119 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "TodoBravo",
+   "url": "https://www.todobravo.es/tarifas/google-ads-sem/",
+   "servicio": 9,
+   "precio": 99,
+   "unidad": "€/mes",
+   "texto_literal": "99 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "TodoBravo",
+   "url": "https://www.todobravo.es/tarifas/prestashop/",
+   "servicio": 2,
+   "precio": 2990,
+   "unidad": "€",
+   "texto_literal": "2.990 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "TodoBravo",
+   "url": "https://www.todobravo.es/tarifas/diseno-web-profesional/",
+   "servicio": 1,
+   "precio": 1790,
+   "unidad": "€",
+   "texto_literal": "1.790 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "JRC Web",
+   "url": "https://jrcweb.es/precios-seo/",
+   "servicio": 3,
+   "precio": 150,
+   "unidad": "€/mes",
+   "texto_literal": "150 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "JRC Web",
+   "url": "https://jrcweb.es/precios-seo/",
+   "servicio": 3,
+   "precio": 950,
+   "unidad": "€/mes",
+   "texto_literal": "950 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "JRC Web",
+   "url": "https://jrcweb.es/precios-google-ads/",
+   "servicio": 9,
+   "precio": 150,
+   "unidad": "€/mes",
+   "texto_literal": "150€/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Sismit",
+   "url": "https://www.sismit.es/tarifas-precios-posicionamiento-seo-madrid.php",
+   "servicio": 3,
+   "precio": 152,
+   "unidad": "€/mes",
+   "texto_literal": "152,00 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Sismit",
+   "url": "https://www.sismit.es/tarifas-precios-posicionamiento-seo-madrid.php",
+   "servicio": 3,
+   "precio": 540,
+   "unidad": "€/mes",
+   "texto_literal": "540,00 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Iconestudio",
+   "url": "https://iconestudio.es/precios-posicionamiento-web-tarifas-seo",
+   "servicio": 3,
+   "precio": 129,
+   "unidad": "€/mes",
+   "texto_literal": "129€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "SanCreate",
+   "url": "https://sancreate.es/presupuesto-seo/",
+   "servicio": 3,
+   "precio": 300,
+   "unidad": "€/mes",
+   "texto_literal": "300 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Murcia"
+  },
+  {
+   "proveedor": "SanCreate",
+   "url": "https://sancreate.es/presupuesto-seo/",
+   "servicio": 3,
+   "precio": 600,
+   "unidad": "€/mes",
+   "texto_literal": "600 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Murcia"
+  },
+  {
+   "proveedor": "Sergio Álvarez",
+   "url": "https://sergioalvarez.digital/precio-consultor-seo/",
+   "servicio": 3,
+   "precio": 400,
+   "unidad": "€/mes desde",
+   "texto_literal": "400 €/mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "España (remoto)"
+  },
+  {
+   "proveedor": "Sergio Álvarez",
+   "url": "https://sergioalvarez.digital/precio-consultor-seo/",
+   "servicio": 9,
+   "precio": 300,
+   "unidad": "€/mes desde",
+   "texto_literal": "300 €/mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "España (remoto)"
+  },
+  {
+   "proveedor": "Aeuroweb",
+   "url": "https://www.aeuroweb.com/precios-mantenimiento-web/",
+   "servicio": 4,
+   "precio": 39,
+   "unidad": "€/mes",
+   "texto_literal": "39 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Aeuroweb",
+   "url": "https://www.aeuroweb.com/precios-mantenimiento-web/",
+   "servicio": 4,
+   "precio": 59,
+   "unidad": "€/mes",
+   "texto_literal": "59 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Aeuroweb",
+   "url": "https://www.aeuroweb.com/precios-mantenimiento-web/",
+   "servicio": 5,
+   "precio": 40,
+   "unidad": "€/h",
+   "texto_literal": "40 €/hora",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Sitelabs",
+   "url": "https://sitelabs.es/mantenimiento-web/",
+   "servicio": 4,
+   "precio": 39,
+   "unidad": "€/mes",
+   "texto_literal": "39€/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Sitelabs",
+   "url": "https://sitelabs.es/mantenimiento-web/",
+   "servicio": 4,
+   "precio": 99,
+   "unidad": "€/mes",
+   "texto_literal": "99€/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Web en Plan",
+   "url": "https://webenplan.com/precios-diseno-web",
+   "servicio": 1,
+   "precio": 549,
+   "unidad": "€",
+   "texto_literal": "549€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Web en Plan",
+   "url": "https://webenplan.com/precios-diseno-web",
+   "servicio": 4,
+   "precio": 29,
+   "unidad": "€/mes",
+   "texto_literal": "29€/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Sants Web Design",
+   "url": "https://santswebdesign.com/cuanto-cuesta-una-pagina-web/",
+   "servicio": 1,
+   "precio": 499,
+   "unidad": "€",
+   "texto_literal": "499 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Sants Web Design",
+   "url": "https://santswebdesign.com/cuanto-cuesta-una-pagina-web/",
+   "servicio": 1,
+   "precio": 799,
+   "unidad": "€",
+   "texto_literal": "799 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "BierzoSEO",
+   "url": "https://bierzoseo.com/diseno-web-profesional/",
+   "servicio": 1,
+   "precio": 790,
+   "unidad": "€",
+   "texto_literal": "790€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Ponferrada"
+  },
+  {
+   "proveedor": "BierzoSEO",
+   "url": "https://bierzoseo.com/diseno-web-profesional/",
+   "servicio": 4,
+   "precio": 19,
+   "unidad": "€/mes",
+   "texto_literal": "19 € / mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Ponferrada"
+  },
+  {
+   "proveedor": "BossByte",
+   "url": "https://bossbyte.es/comprar-web-lista/",
+   "servicio": 1,
+   "precio": 500,
+   "unidad": "€",
+   "texto_literal": "500€",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Wellaggio",
+   "url": "https://wellaggio.com/planes-y-tarifas-diseno-web/",
+   "servicio": 1,
+   "precio": 600,
+   "unidad": "€",
+   "texto_literal": "600 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Valencia"
+  },
+  {
+   "proveedor": "Wellaggio",
+   "url": "https://wellaggio.com/planes-y-tarifas-diseno-web/",
+   "servicio": 2,
+   "precio": 1200,
+   "unidad": "€",
+   "texto_literal": "1.200 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Valencia"
+  },
+  {
+   "proveedor": "I-Tailored",
+   "url": "https://itailoredgrup.cat/es/diseno-web-barcelona/precio/",
+   "servicio": 1,
+   "precio": 450,
+   "unidad": "€ desde",
+   "texto_literal": "desde 450€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "I-Tailored",
+   "url": "https://itailoredgrup.cat/es/diseno-web-barcelona/precio/",
+   "servicio": 2,
+   "precio": 1260,
+   "unidad": "€ desde",
+   "texto_literal": "desde 1260€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "tuweblowcost",
+   "url": "https://www.tuweblowcost.com/",
+   "servicio": 1,
+   "precio": 250,
+   "unidad": "€",
+   "texto_literal": "250€",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "tuweblowcost",
+   "url": "https://www.tuweblowcost.com/",
+   "servicio": 2,
+   "precio": 400,
+   "unidad": "€",
+   "texto_literal": "400€",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "tuweblowcost",
+   "url": "https://www.tuweblowcost.com/",
+   "servicio": 4,
+   "precio": 25,
+   "unidad": "€/mes desde",
+   "texto_literal": "25€ al mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Cristina Ferrís",
+   "url": "https://cristinaferris.com/diseno-web-madrid/",
+   "servicio": 1,
+   "precio": 550,
+   "unidad": "€",
+   "texto_literal": "550€",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Cristina Ferrís",
+   "url": "https://cristinaferris.com/diseno-web-madrid/",
+   "servicio": 2,
+   "precio": 800,
+   "unidad": "€",
+   "texto_literal": "800€",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Cristina Ferrís",
+   "url": "https://cristinaferris.com/",
+   "servicio": 3,
+   "precio": 100,
+   "unidad": "€/mes desde",
+   "texto_literal": "100€/mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Mònica Cabaní",
+   "url": "https://monicacabani.com/tarifas-y-precios-diseno-wordpress-barcelona/",
+   "servicio": 1,
+   "precio": 950,
+   "unidad": "€ desde",
+   "texto_literal": "desde 950€",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Mònica Cabaní",
+   "url": "https://monicacabani.com/tarifas-y-precios-diseno-wordpress-barcelona/",
+   "servicio": 4,
+   "precio": 49,
+   "unidad": "€/mes",
+   "texto_literal": "49€ / mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Mònica Cabaní",
+   "url": "https://monicacabani.com/tarifas-y-precios-diseno-wordpress-barcelona/",
+   "servicio": 9,
+   "precio": 175,
+   "unidad": "€/mes desde",
+   "texto_literal": "175€/mes",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Marabelia",
+   "url": "https://marabelia.com/precio-tienda-online/",
+   "servicio": 2,
+   "precio": 1200,
+   "unidad": "€",
+   "texto_literal": "1.200 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Valencia"
+  },
+  {
+   "proveedor": "K2SEO",
+   "url": "https://www.k2seo.es/presupuesto-tienda-online-prestashop/",
+   "servicio": 2,
+   "precio": 595,
+   "unidad": "€",
+   "texto_literal": "595 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Palma"
+  },
+  {
+   "proveedor": "K2SEO",
+   "url": "https://www.k2seo.es/presupuesto-tienda-online-prestashop/",
+   "servicio": 2,
+   "precio": 1295,
+   "unidad": "€",
+   "texto_literal": "1.295 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Palma"
+  },
+  {
+   "proveedor": "K2SEO",
+   "url": "https://www.k2seo.es/presupuesto-tienda-online-prestashop/",
+   "servicio": 4,
+   "precio": 29,
+   "unidad": "€/mes desde",
+   "texto_literal": "29 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Palma"
+  },
+  {
+   "proveedor": "Tomyflow",
+   "url": "https://www.tomyflow.com/diseno-de-tiendas-online/",
+   "servicio": 2,
+   "precio": 890,
+   "unidad": "€",
+   "texto_literal": "890 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Tarifa"
+  },
+  {
+   "proveedor": "Tomyflow",
+   "url": "https://www.tomyflow.com/diseno-de-tiendas-online/",
+   "servicio": 2,
+   "precio": 1090,
+   "unidad": "€",
+   "texto_literal": "1090 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Tarifa"
+  },
+  {
+   "proveedor": "ideaWeb",
+   "url": "https://ideaweb.es/diseno-tiendas-online/",
+   "servicio": 2,
+   "precio": 1295,
+   "unidad": "€",
+   "texto_literal": "1.295 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Avanlok",
+   "url": "https://avanlok.com/precio-mantenimiento-paginas-web/",
+   "servicio": 5,
+   "precio": 53.6,
+   "unidad": "€/h",
+   "texto_literal": "268 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Alicante"
+  },
+  {
+   "proveedor": "Avanlok",
+   "url": "https://avanlok.com/precio-mantenimiento-paginas-web/",
+   "servicio": 5,
+   "precio": 42.5,
+   "unidad": "€/h",
+   "texto_literal": "850 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Alicante"
+  },
+  {
+   "proveedor": "Acento Web",
+   "url": "https://acentoweb.com/es/tienda/otros-servicios/bonos-de-tareas",
+   "servicio": 5,
+   "precio": 65,
+   "unidad": "€/h",
+   "texto_literal": "65,00 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Gibraleón"
+  },
+  {
+   "proveedor": "Nubeser",
+   "url": "https://nubeser.com/bonos-de-horas-desarrollo-web/",
+   "servicio": 5,
+   "precio": 53,
+   "unidad": "€/h",
+   "texto_literal": "53€/hora",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Valencia"
+  },
+  {
+   "proveedor": "Nubeser",
+   "url": "https://nubeser.com/bonos-de-horas-desarrollo-web/",
+   "servicio": 5,
+   "precio": 50,
+   "unidad": "€/h",
+   "texto_literal": "500 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Valencia"
+  },
+  {
+   "proveedor": "La Nave Nodriza",
+   "url": "https://lanavenodriza.es/que-es-bono-horas-diseno-web/",
+   "servicio": 5,
+   "precio": 70,
+   "unidad": "€/h",
+   "texto_literal": "350 €",
+   "tipo_proveedor": "freelance",
+   "ciudad": "Artà"
+  },
+  {
+   "proveedor": "Varkia",
+   "url": "https://varkia.es/precios",
+   "servicio": 6,
+   "precio": 250,
+   "unidad": "€",
+   "texto_literal": "250 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Logroño"
+  },
+  {
+   "proveedor": "Varkia",
+   "url": "https://varkia.es/precios",
+   "servicio": 6,
+   "precio": 990,
+   "unidad": "€",
+   "texto_literal": "990 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Logroño"
+  },
+  {
+   "proveedor": "Varkia",
+   "url": "https://varkia.es/precios",
+   "servicio": 7,
+   "precio": 1500,
+   "unidad": "€ desde",
+   "texto_literal": "Desde 1.500 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Logroño"
+  },
+  {
+   "proveedor": "MyChatBot",
+   "url": "https://mychatbot.es/precios/",
+   "servicio": 7,
+   "precio": 70,
+   "unidad": "€/mes",
+   "texto_literal": "70 €/mes",
+   "tipo_proveedor": "plataforma",
+   "ciudad": "Sevilla"
+  },
+  {
+   "proveedor": "MyChatBot",
+   "url": "https://mychatbot.es/precios/",
+   "servicio": 7,
+   "precio": 200,
+   "unidad": "€/mes",
+   "texto_literal": "200 €/mes",
+   "tipo_proveedor": "plataforma",
+   "ciudad": "Sevilla"
+  },
+  {
+   "proveedor": "Inter Linked AI",
+   "url": "https://interlinkedai.es/opciones-de-contratacion/",
+   "servicio": 7,
+   "precio": 69,
+   "unidad": "€/mes",
+   "texto_literal": "69€ / Mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Inter Linked AI",
+   "url": "https://interlinkedai.es/opciones-de-contratacion/",
+   "servicio": 7,
+   "precio": 219,
+   "unidad": "€/mes",
+   "texto_literal": "219€ / Mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Quantum Solutions",
+   "url": "https://quantum-solutions.es/servicios/inteligencia-artificial/chatbots-para-empresas/",
+   "servicio": 7,
+   "precio": 10,
+   "unidad": "€/mes",
+   "texto_literal": "10€ /mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Sevilla"
+  },
+  {
+   "proveedor": "Quantum Solutions",
+   "url": "https://quantum-solutions.es/servicios/inteligencia-artificial/chatbots-para-empresas/",
+   "servicio": 7,
+   "precio": 50,
+   "unidad": "€/mes",
+   "texto_literal": "50€ /mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Sevilla"
+  },
+  {
+   "proveedor": "SiteBlui",
+   "url": "https://siteblui.com/agencia-chatbots-madrid/",
+   "servicio": 7,
+   "precio": 400,
+   "unidad": "€",
+   "texto_literal": "400€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "SiteBlui",
+   "url": "https://siteblui.com/agencia-chatbots-madrid/",
+   "servicio": 7,
+   "precio": 1200,
+   "unidad": "€",
+   "texto_literal": "1.200€",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Hostino",
+   "url": "https://www.hostino.es/agencia-geo-ia-espana/",
+   "servicio": 8,
+   "precio": 190,
+   "unidad": "€/mes desde",
+   "texto_literal": "190 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": ""
+  },
+  {
+   "proveedor": "Performance Media",
+   "url": "https://performancemedia.io/",
+   "servicio": 8,
+   "precio": 995,
+   "unidad": "€/mes",
+   "texto_literal": "995 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Performance Media",
+   "url": "https://performancemedia.io/",
+   "servicio": 8,
+   "precio": 1495,
+   "unidad": "€/mes",
+   "texto_literal": "1.495 €",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Barcelona"
+  },
+  {
+   "proveedor": "Agencia Google Ads",
+   "url": "https://agenciagoogleads.com/precios/",
+   "servicio": 9,
+   "precio": 350,
+   "unidad": "€/mes",
+   "texto_literal": "350 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Agencia Google Ads",
+   "url": "https://agenciagoogleads.com/precios/",
+   "servicio": 9,
+   "precio": 750,
+   "unidad": "€/mes",
+   "texto_literal": "750 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Madrid"
+  },
+  {
+   "proveedor": "Xplora",
+   "url": "https://www.xplora.eu/publicidad-google-ads/",
+   "servicio": 9,
+   "precio": 300,
+   "unidad": "€/mes",
+   "texto_literal": "300 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Terrassa"
+  },
+  {
+   "proveedor": "Xplora",
+   "url": "https://www.xplora.eu/publicidad-google-ads/",
+   "servicio": 9,
+   "precio": 500,
+   "unidad": "€/mes",
+   "texto_literal": "500 €/mes",
+   "tipo_proveedor": "agencia",
+   "ciudad": "Terrassa"
+  }
+ ]
+}
